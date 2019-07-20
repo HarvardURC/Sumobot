@@ -95,7 +95,10 @@
 <layer number="114" name="Badge_Outline" color="11" fill="1" visible="no" active="no"/>
 <layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
+<layer number="117" name="BACKMAAT1" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="119" name="KAP_TEKEN" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="120" name="KAP_MAAT1" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
@@ -105,15 +108,25 @@
 <layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="130" name="SMDSTROOK" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="133" name="bottom_silk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="134" name="silk_top" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="135" name="silk_bottom" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="136" name="silktop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="137" name="silkbottom" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="145" name="DrillLegend_01-16" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="146" name="DrillLegend_01-20" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="153" name="FabDoc1" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="154" name="FabDoc2" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="155" name="FabDoc3" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="166" name="AntennaArea" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="168" name="4mmHeightArea" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="201" name="201bmp" color="2" fill="10" visible="yes" active="yes"/>
@@ -2467,6 +2480,39 @@ Battery Holder&lt;br&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="audio amplifier example" urn="urn:adsk.eagle:library:970892">
+<description>
+</description>
+<packages>
+</packages>
+<symbols>
+<symbol name="GND" urn="urn:adsk.eagle:symbol:970893/1" library_version="4">
+<description>GND Symbol</description>
+<wire x1="-1.905" y1="-2.54" x2="1.905" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="1.905" y1="-2.54" x2="0" y2="-4.445" width="0.254" layer="94"/>
+<wire x1="0" y1="-4.445" x2="-1.905" y2="-2.54" width="0.254" layer="94"/>
+<pin name="GND" x="0" y="0" visible="off" length="short" direction="sup" rot="R270"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="GND" urn="urn:adsk.eagle:component:970925/1" prefix="GND" library_version="4">
+<description>GND Supply</description>
+<gates>
+<gate name="G$1" symbol="GND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="BOM" value="EXCLUDE" constant="no"/>
+<attribute name="VALUE" value="SUP" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2501,6 +2547,26 @@ Battery Holder&lt;br&gt;
 <part name="TOF4" library="con-lsta" library_urn="urn:adsk.eagle:library:161" deviceset="FE07-1" device="" package3d_urn="urn:adsk.eagle:package:8223/1"/>
 <part name="TOF5" library="con-lsta" library_urn="urn:adsk.eagle:library:161" deviceset="FE07-1" device="" package3d_urn="urn:adsk.eagle:package:8223/1"/>
 <part name="REGULATOR" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="" package3d_urn="urn:adsk.eagle:package:38063/1"/>
+<part name="GND1" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
+<part name="GND3" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
+<part name="GND4" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
+<part name="GND5" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
+<part name="GND2" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
+<part name="GND6" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
+<part name="GND7" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
+<part name="GND8" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
+<part name="GND9" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
+<part name="GND10" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
+<part name="GND11" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
+<part name="GND12" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
+<part name="GND13" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
+<part name="GND14" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
+<part name="GND15" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
+<part name="GND16" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
+<part name="GND17" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
+<part name="GND18" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
+<part name="GND19" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
+<part name="GND20" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
 </parts>
 <sheets>
 <sheet>
@@ -2603,6 +2669,26 @@ Battery Holder&lt;br&gt;
 <attribute name="VALUE" x="144.78" y="56.134" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="144.78" y="69.088" size="1.778" layer="95" font="vector"/>
 </instance>
+<instance part="GND1" gate="G$1" x="137.16" y="88.9" smashed="yes"/>
+<instance part="GND3" gate="G$1" x="60.96" y="73.66" smashed="yes"/>
+<instance part="GND4" gate="G$1" x="60.96" y="93.98" smashed="yes"/>
+<instance part="GND5" gate="G$1" x="60.96" y="53.34" smashed="yes"/>
+<instance part="GND2" gate="G$1" x="167.64" y="12.7" smashed="yes"/>
+<instance part="GND6" gate="G$1" x="86.36" y="93.98" smashed="yes"/>
+<instance part="GND7" gate="G$1" x="60.96" y="33.02" smashed="yes"/>
+<instance part="GND8" gate="G$1" x="-2.54" y="45.72" smashed="yes"/>
+<instance part="GND9" gate="G$1" x="147.32" y="12.7" smashed="yes"/>
+<instance part="GND10" gate="G$1" x="127" y="12.7" smashed="yes"/>
+<instance part="GND11" gate="G$1" x="106.68" y="12.7" smashed="yes"/>
+<instance part="GND12" gate="G$1" x="91.44" y="15.24" smashed="yes"/>
+<instance part="GND13" gate="G$1" x="71.12" y="15.24" smashed="yes"/>
+<instance part="GND14" gate="G$1" x="50.8" y="15.24" smashed="yes"/>
+<instance part="GND15" gate="G$1" x="162.56" y="63.5" smashed="yes"/>
+<instance part="GND16" gate="G$1" x="30.48" y="15.24" smashed="yes"/>
+<instance part="GND17" gate="G$1" x="10.16" y="15.24" smashed="yes"/>
+<instance part="GND18" gate="G$1" x="86.36" y="73.66" smashed="yes"/>
+<instance part="GND19" gate="G$1" x="86.36" y="53.34" smashed="yes"/>
+<instance part="GND20" gate="G$1" x="86.36" y="33.02" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -2685,103 +2771,94 @@ Battery Holder&lt;br&gt;
 <net name="GND" class="0">
 <segment>
 <pinref part="BATT1" gate="G$1" pin="-"/>
-<junction x="137.16" y="88.9"/>
-<label x="132.08" y="88.9" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="SV1" gate="G$1" pin="1"/>
-<junction x="78.74" y="93.98"/>
-<label x="78.74" y="91.44" size="1.778" layer="95"/>
+<pinref part="GND1" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="SV7" gate="G$1" pin="5"/>
-<junction x="60.96" y="93.98"/>
-<label x="55.88" y="91.44" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="TOF1" gate="G$1" pin="5"/>
-<junction x="2.54" y="15.24"/>
-<label x="2.54" y="15.24" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="REFL_SENS_1" gate="J$1" pin="1"/>
-<junction x="106.68" y="12.7"/>
-<label x="106.68" y="12.7" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="REFL_SENS_2" gate="J$1" pin="1"/>
-<junction x="127" y="12.7"/>
-<label x="127" y="12.7" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="REFL_SENS_3" gate="J$1" pin="1"/>
-<junction x="147.32" y="12.7"/>
-<label x="147.32" y="12.7" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="REFL_SENS_4" gate="J$1" pin="1"/>
-<junction x="167.64" y="12.7"/>
-<label x="167.64" y="12.7" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="B1" gate="G$1" pin="GND"/>
-<junction x="5.08" y="45.72"/>
-<label x="-2.54" y="45.72" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="SV2" gate="G$1" pin="1"/>
-<junction x="78.74" y="73.66"/>
-<label x="78.74" y="71.12" size="1.778" layer="95"/>
+<pinref part="GND4" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="SV3" gate="G$1" pin="5"/>
-<junction x="60.96" y="73.66"/>
-<label x="55.88" y="71.12" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="SV4" gate="G$1" pin="1"/>
-<junction x="78.74" y="53.34"/>
-<label x="78.74" y="50.8" size="1.778" layer="95"/>
+<pinref part="GND3" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="SV5" gate="G$1" pin="5"/>
-<junction x="60.96" y="53.34"/>
-<label x="55.88" y="50.8" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="SV6" gate="G$1" pin="1"/>
-<junction x="78.74" y="33.02"/>
-<label x="78.74" y="33.02" size="1.778" layer="95"/>
+<pinref part="GND5" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="SV8" gate="G$1" pin="5"/>
-<junction x="60.96" y="33.02"/>
-<label x="55.88" y="33.02" size="1.778" layer="95"/>
+<pinref part="GND7" gate="G$1" pin="GND"/>
 </segment>
 <segment>
+<pinref part="REFL_SENS_4" gate="J$1" pin="1"/>
+<pinref part="GND2" gate="G$1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="REFL_SENS_3" gate="J$1" pin="1"/>
+<pinref part="GND9" gate="G$1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="REFL_SENS_2" gate="J$1" pin="1"/>
+<pinref part="GND10" gate="G$1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="REFL_SENS_1" gate="J$1" pin="1"/>
+<pinref part="GND11" gate="G$1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="TOF1" gate="G$1" pin="5"/>
+<pinref part="GND17" gate="G$1" pin="GND"/>
+<wire x1="2.54" y1="15.24" x2="10.16" y2="15.24" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND16" gate="G$1" pin="GND"/>
 <pinref part="TOF2" gate="G$1" pin="5"/>
-<junction x="22.86" y="15.24"/>
-<label x="22.86" y="15.24" size="1.778" layer="95"/>
+<wire x1="30.48" y1="15.24" x2="22.86" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
+<pinref part="GND14" gate="G$1" pin="GND"/>
 <pinref part="TOF3" gate="G$1" pin="5"/>
-<junction x="43.18" y="15.24"/>
-<label x="43.18" y="15.24" size="1.778" layer="95"/>
+<wire x1="50.8" y1="15.24" x2="43.18" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="TOF4" gate="G$1" pin="5"/>
-<junction x="63.5" y="15.24"/>
-<label x="63.5" y="15.24" size="1.778" layer="95"/>
+<pinref part="GND13" gate="G$1" pin="GND"/>
+<wire x1="63.5" y1="15.24" x2="71.12" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="TOF5" gate="G$1" pin="5"/>
-<junction x="83.82" y="15.24"/>
-<label x="83.82" y="15.24" size="1.778" layer="95"/>
+<pinref part="GND12" gate="G$1" pin="GND"/>
+<wire x1="83.82" y1="15.24" x2="91.44" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="REGULATOR" gate="J$1" pin="2"/>
-<junction x="154.94" y="63.5"/>
-<label x="154.94" y="63.5" size="1.778" layer="95"/>
+<pinref part="GND15" gate="G$1" pin="GND"/>
+<wire x1="154.94" y1="63.5" x2="162.56" y2="63.5" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND8" gate="G$1" pin="GND"/>
+<pinref part="B1" gate="G$1" pin="GND"/>
+<wire x1="-2.54" y1="45.72" x2="5.08" y2="45.72" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SV1" gate="G$1" pin="1"/>
+<pinref part="GND6" gate="G$1" pin="GND"/>
+<wire x1="78.74" y1="93.98" x2="86.36" y2="93.98" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SV2" gate="G$1" pin="1"/>
+<pinref part="GND18" gate="G$1" pin="GND"/>
+<wire x1="78.74" y1="73.66" x2="86.36" y2="73.66" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SV4" gate="G$1" pin="1"/>
+<pinref part="GND19" gate="G$1" pin="GND"/>
+<wire x1="78.74" y1="53.34" x2="86.36" y2="53.34" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SV6" gate="G$1" pin="1"/>
+<pinref part="GND20" gate="G$1" pin="GND"/>
+<wire x1="78.74" y1="33.02" x2="86.36" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SDA" class="0">
