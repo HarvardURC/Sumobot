@@ -2513,6 +2513,217 @@ Battery Holder&lt;br&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-Capacitors" urn="urn:adsk.eagle:library:510">
+<description>&lt;h3&gt;SparkFun Capacitors&lt;/h3&gt;
+This library contains capacitors. 
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="0402" urn="urn:adsk.eagle:footprint:37389/1" library_version="1">
+<description>&lt;p&gt;&lt;b&gt;Generic 1005 (0402) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<wire x1="-0.2704" y1="0.2286" x2="0.2704" y2="0.2286" width="0.1524" layer="51"/>
+<wire x1="0.2704" y1="-0.2286" x2="-0.2704" y2="-0.2286" width="0.1524" layer="51"/>
+<wire x1="-1.2" y1="0.65" x2="1.2" y2="0.65" width="0.0508" layer="39"/>
+<wire x1="1.2" y1="0.65" x2="1.2" y2="-0.65" width="0.0508" layer="39"/>
+<wire x1="1.2" y1="-0.65" x2="-1.2" y2="-0.65" width="0.0508" layer="39"/>
+<wire x1="-1.2" y1="-0.65" x2="-1.2" y2="0.65" width="0.0508" layer="39"/>
+<smd name="1" x="-0.58" y="0" dx="0.85" dy="0.9" layer="1"/>
+<smd name="2" x="0.58" y="0" dx="0.85" dy="0.9" layer="1"/>
+<text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.3048" layer="51"/>
+<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.3048" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+</package>
+<package name="0603" urn="urn:adsk.eagle:footprint:37386/1" library_version="1">
+<description>&lt;p&gt;&lt;b&gt;Generic 1608 (0603) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<wire x1="-1.6" y1="0.7" x2="1.6" y2="0.7" width="0.0508" layer="39"/>
+<wire x1="1.6" y1="0.7" x2="1.6" y2="-0.7" width="0.0508" layer="39"/>
+<wire x1="1.6" y1="-0.7" x2="-1.6" y2="-0.7" width="0.0508" layer="39"/>
+<wire x1="-1.6" y1="-0.7" x2="-1.6" y2="0.7" width="0.0508" layer="39"/>
+<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
+<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
+<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
+<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+</package>
+<package name="CAP-PTH-SMALL-KIT" urn="urn:adsk.eagle:footprint:37404/1" library_version="1">
+<description>&lt;h3&gt;CAP-PTH-SMALL-KIT&lt;/h3&gt;
+Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.com/products/8375) or 22pF caps (http://www.sparkfun.com/products/8571).&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Warning:&lt;/b&gt; This is the KIT version of this package. This package has a smaller diameter top stop mask, which doesn't cover the diameter of the pad. This means only the bottom side of the pads' copper will be exposed. You'll only be able to solder to the bottom side.</description>
+<wire x1="0" y1="0.635" x2="0" y2="-0.635" width="0.254" layer="21"/>
+<wire x1="-2.667" y1="1.27" x2="2.667" y2="1.27" width="0.254" layer="21"/>
+<wire x1="2.667" y1="1.27" x2="2.667" y2="-1.27" width="0.254" layer="21"/>
+<wire x1="2.667" y1="-1.27" x2="-2.667" y2="-1.27" width="0.254" layer="21"/>
+<wire x1="-2.667" y1="-1.27" x2="-2.667" y2="1.27" width="0.254" layer="21"/>
+<pad name="1" x="-1.397" y="0" drill="1.016" diameter="2.032" stop="no"/>
+<pad name="2" x="1.397" y="0" drill="1.016" diameter="2.032" stop="no"/>
+<polygon width="0.127" layer="30">
+<vertex x="-1.4021" y="-0.9475" curve="-90"/>
+<vertex x="-2.357" y="-0.0178" curve="-90.011749"/>
+<vertex x="-1.4046" y="0.9576" curve="-90"/>
+<vertex x="-0.4546" y="-0.0204" curve="-90.024193"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="-1.4046" y="-0.4395" curve="-90.012891"/>
+<vertex x="-1.8491" y="-0.0153" curve="-90"/>
+<vertex x="-1.4046" y="0.452" curve="-90"/>
+<vertex x="-0.9627" y="-0.0051" curve="-90.012967"/>
+</polygon>
+<polygon width="0.127" layer="30">
+<vertex x="1.397" y="-0.9475" curve="-90"/>
+<vertex x="0.4421" y="-0.0178" curve="-90.011749"/>
+<vertex x="1.3945" y="0.9576" curve="-90"/>
+<vertex x="2.3445" y="-0.0204" curve="-90.024193"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="1.3945" y="-0.4395" curve="-90.012891"/>
+<vertex x="0.95" y="-0.0153" curve="-90"/>
+<vertex x="1.3945" y="0.452" curve="-90"/>
+<vertex x="1.8364" y="-0.0051" curve="-90.012967"/>
+</polygon>
+</package>
+</packages>
+<packages3d>
+<package3d name="0402" urn="urn:adsk.eagle:package:37413/1" type="box" library_version="1">
+<description>Generic 1005 (0402) package
+0.2mm courtyard excess rounded to nearest 0.05mm.</description>
+<packageinstances>
+<packageinstance name="0402"/>
+</packageinstances>
+</package3d>
+<package3d name="0603" urn="urn:adsk.eagle:package:37414/1" type="box" library_version="1">
+<description>Generic 1608 (0603) package
+0.2mm courtyard excess rounded to nearest 0.05mm.</description>
+<packageinstances>
+<packageinstance name="0603"/>
+</packageinstances>
+</package3d>
+<package3d name="CAP-PTH-SMALL-KIT" urn="urn:adsk.eagle:package:37428/1" type="box" library_version="1">
+<description>CAP-PTH-SMALL-KIT
+Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.com/products/8375) or 22pF caps (http://www.sparkfun.com/products/8571).
+
+Warning: This is the KIT version of this package. This package has a smaller diameter top stop mask, which doesn't cover the diameter of the pad. This means only the bottom side of the pads' copper will be exposed. You'll only be able to solder to the bottom side.</description>
+<packageinstances>
+<packageinstance name="CAP-PTH-SMALL-KIT"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="CAP" urn="urn:adsk.eagle:symbol:37385/1" library_version="1">
+<wire x1="0" y1="2.54" x2="0" y2="2.032" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="0.508" width="0.1524" layer="94"/>
+<text x="1.524" y="2.921" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="1.524" y="-2.159" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<rectangle x1="-2.032" y1="0.508" x2="2.032" y2="1.016" layer="94"/>
+<rectangle x1="-2.032" y1="1.524" x2="2.032" y2="2.032" layer="94"/>
+<pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="2" x="0" y="-2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="0.1UF" urn="urn:adsk.eagle:component:37472/1" prefix="C" library_version="1">
+<description>&lt;h3&gt;0.1µF ceramic capacitors&lt;/h3&gt;
+&lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="CAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-0402-16V-10%" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:37413/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-12416"/>
+<attribute name="VALUE" value="0.1uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-0603-25V-(+80/-20%)" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:37414/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-00810"/>
+<attribute name="VALUE" value="0.1uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-0603-25V-5%" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:37414/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-08604"/>
+<attribute name="VALUE" value="0.1uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-KIT-EZ-50V-20%" package="CAP-PTH-SMALL-KIT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:37428/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-08370"/>
+<attribute name="VALUE" value="0.1uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-0603-100V-10%" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:37414/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-08390"/>
+<attribute name="VALUE" value="0.1uF"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2526,7 +2737,7 @@ Battery Holder&lt;br&gt;
 <part name="B1" library="SparkFun-Boards" library_urn="urn:adsk.eagle:library:509" deviceset="TEENSY-3.1" device="SILK" package3d_urn="urn:adsk.eagle:package:37333/1"/>
 <part name="SV1" library="con-lsta" library_urn="urn:adsk.eagle:library:161" deviceset="FE05-1" device="" package3d_urn="urn:adsk.eagle:package:8190/1"/>
 <part name="SV7" library="con-lsta" library_urn="urn:adsk.eagle:library:161" deviceset="FE05-1" device="" package3d_urn="urn:adsk.eagle:package:8190/1"/>
-<part name="TOF1" library="con-lsta" library_urn="urn:adsk.eagle:library:161" deviceset="FE07-1" device="" package3d_urn="urn:adsk.eagle:package:8223/1"/>
+<part name="L_TOF" library="con-lsta" library_urn="urn:adsk.eagle:library:161" deviceset="FE07-1" device="" package3d_urn="urn:adsk.eagle:package:8223/1"/>
 <part name="FL_MOTOR" library="SparkFun-Electromechanical" library_urn="urn:adsk.eagle:library:516" deviceset="MOTOR" device="10MM" package3d_urn="urn:adsk.eagle:package:38555/1"/>
 <part name="FL_REF" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="JST-SMD" package3d_urn="urn:adsk.eagle:package:38075/1" value="3-PIN SMD"/>
 <part name="BATT1" library="DC_LOAD_AU" library_urn="urn:adsk.eagle:library:220454" deviceset="2464_BATT_HOLDER" device="" package3d_urn="urn:adsk.eagle:package:220525/3"/>
@@ -2542,10 +2753,10 @@ Battery Holder&lt;br&gt;
 <part name="SV6" library="con-lsta" library_urn="urn:adsk.eagle:library:161" deviceset="FE05-1" device="" package3d_urn="urn:adsk.eagle:package:8190/1"/>
 <part name="SV8" library="con-lsta" library_urn="urn:adsk.eagle:library:161" deviceset="FE05-1" device="" package3d_urn="urn:adsk.eagle:package:8190/1"/>
 <part name="BR_MOTOR" library="SparkFun-Electromechanical" library_urn="urn:adsk.eagle:library:516" deviceset="MOTOR" device="10MM" package3d_urn="urn:adsk.eagle:package:38555/1"/>
-<part name="TOF2" library="con-lsta" library_urn="urn:adsk.eagle:library:161" deviceset="FE07-1" device="" package3d_urn="urn:adsk.eagle:package:8223/1"/>
-<part name="TOF3" library="con-lsta" library_urn="urn:adsk.eagle:library:161" deviceset="FE07-1" device="" package3d_urn="urn:adsk.eagle:package:8223/1"/>
-<part name="TOF4" library="con-lsta" library_urn="urn:adsk.eagle:library:161" deviceset="FE07-1" device="" package3d_urn="urn:adsk.eagle:package:8223/1"/>
-<part name="TOF5" library="con-lsta" library_urn="urn:adsk.eagle:library:161" deviceset="FE07-1" device="" package3d_urn="urn:adsk.eagle:package:8223/1"/>
+<part name="FL_TOF" library="con-lsta" library_urn="urn:adsk.eagle:library:161" deviceset="FE07-1" device="" package3d_urn="urn:adsk.eagle:package:8223/1"/>
+<part name="F_TOF" library="con-lsta" library_urn="urn:adsk.eagle:library:161" deviceset="FE07-1" device="" package3d_urn="urn:adsk.eagle:package:8223/1"/>
+<part name="FR_TOF" library="con-lsta" library_urn="urn:adsk.eagle:library:161" deviceset="FE07-1" device="" package3d_urn="urn:adsk.eagle:package:8223/1"/>
+<part name="R_TOF" library="con-lsta" library_urn="urn:adsk.eagle:library:161" deviceset="FE07-1" device="" package3d_urn="urn:adsk.eagle:package:8223/1"/>
 <part name="REGULATOR" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="" package3d_urn="urn:adsk.eagle:package:38063/1"/>
 <part name="GND1" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
 <part name="GND3" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
@@ -2562,11 +2773,19 @@ Battery Holder&lt;br&gt;
 <part name="GND13" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
 <part name="GND14" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
 <part name="GND15" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
-<part name="GND16" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
 <part name="GND17" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
 <part name="GND18" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
 <part name="GND19" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
 <part name="GND20" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
+<part name="IR_RECEIVER" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="" package3d_urn="urn:adsk.eagle:package:38063/1"/>
+<part name="GND21" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
+<part name="C1" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0603-25V-5%" package3d_urn="urn:adsk.eagle:package:37414/1" value="0.1uF"/>
+<part name="C2" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0603-25V-5%" package3d_urn="urn:adsk.eagle:package:37414/1" value="0.1uF"/>
+<part name="C3" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0603-25V-5%" package3d_urn="urn:adsk.eagle:package:37414/1" value="0.1uF"/>
+<part name="C4" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0603-25V-5%" package3d_urn="urn:adsk.eagle:package:37414/1" value="0.1uF"/>
+<part name="C5" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0603-25V-5%" package3d_urn="urn:adsk.eagle:package:37414/1" value="0.1uF"/>
+<part name="C6" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0603-25V-5%" package3d_urn="urn:adsk.eagle:package:37414/1" value="0.1uF"/>
+<part name="GND16" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
 </parts>
 <sheets>
 <sheet>
@@ -2585,7 +2804,7 @@ Battery Holder&lt;br&gt;
 <attribute name="VALUE" x="69.85" y="109.22" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="69.85" y="90.678" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="TOF1" gate="G$1" x="-5.08" y="12.7" smashed="yes">
+<instance part="L_TOF" gate="G$1" x="-5.08" y="12.7" smashed="yes">
 <attribute name="VALUE" x="-6.35" y="0" size="1.778" layer="96"/>
 <attribute name="NAME" x="-6.35" y="23.622" size="1.778" layer="95"/>
 </instance>
@@ -2593,25 +2812,21 @@ Battery Holder&lt;br&gt;
 <attribute name="NAME" x="96.52" y="99.06" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="96.52" y="96.52" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="FL_REF" gate="J$1" x="99.06" y="15.24" smashed="yes">
-<attribute name="VALUE" x="96.52" y="7.874" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="96.52" y="20.828" size="1.778" layer="95" font="vector"/>
+<instance part="FL_REF" gate="J$1" x="124.46" y="48.26" smashed="yes">
+<attribute name="NAME" x="121.92" y="53.848" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="BATT1" gate="G$1" x="144.78" y="88.9" smashed="yes">
-<attribute name="NAME" x="140.97" y="92.075" size="1.778" layer="95"/>
-<attribute name="VALUE" x="140.97" y="83.82" size="1.778" layer="96"/>
+<instance part="BATT1" gate="G$1" x="157.48" y="106.68" smashed="yes">
+<attribute name="NAME" x="153.67" y="109.855" size="1.778" layer="95"/>
+<attribute name="VALUE" x="153.67" y="101.6" size="1.778" layer="96"/>
 </instance>
-<instance part="BL_REF" gate="J$1" x="119.38" y="15.24" smashed="yes">
-<attribute name="VALUE" x="116.84" y="7.874" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="116.84" y="20.828" size="1.778" layer="95" font="vector"/>
+<instance part="BL_REF" gate="J$1" x="144.78" y="48.26" smashed="yes">
+<attribute name="NAME" x="142.24" y="53.848" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="FR_REF" gate="J$1" x="139.7" y="15.24" smashed="yes">
-<attribute name="VALUE" x="137.16" y="7.874" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="137.16" y="20.828" size="1.778" layer="95" font="vector"/>
+<instance part="FR_REF" gate="J$1" x="124.46" y="66.04" smashed="yes">
+<attribute name="NAME" x="121.92" y="71.628" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="BR_REF" gate="J$1" x="160.02" y="15.24" smashed="yes">
-<attribute name="VALUE" x="157.48" y="7.874" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="157.48" y="20.828" size="1.778" layer="95" font="vector"/>
+<instance part="BR_REF" gate="J$1" x="144.78" y="66.04" smashed="yes">
+<attribute name="NAME" x="142.24" y="71.628" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="SV2" gate="G$1" x="71.12" y="78.74" smashed="yes">
 <attribute name="VALUE" x="69.85" y="68.58" size="1.778" layer="96"/>
@@ -2649,46 +2864,75 @@ Battery Holder&lt;br&gt;
 <attribute name="NAME" x="96.52" y="38.1" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="96.52" y="35.56" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="TOF2" gate="G$1" x="15.24" y="12.7" smashed="yes">
-<attribute name="VALUE" x="13.97" y="0" size="1.778" layer="96"/>
-<attribute name="NAME" x="13.97" y="23.622" size="1.778" layer="95"/>
+<instance part="FL_TOF" gate="G$1" x="22.86" y="12.7" smashed="yes">
+<attribute name="VALUE" x="21.59" y="0" size="1.778" layer="96"/>
+<attribute name="NAME" x="21.59" y="23.622" size="1.778" layer="95"/>
 </instance>
-<instance part="TOF3" gate="G$1" x="35.56" y="12.7" smashed="yes">
-<attribute name="VALUE" x="34.29" y="0" size="1.778" layer="96"/>
-<attribute name="NAME" x="34.29" y="23.622" size="1.778" layer="95"/>
+<instance part="F_TOF" gate="G$1" x="50.8" y="12.7" smashed="yes">
+<attribute name="VALUE" x="49.53" y="0" size="1.778" layer="96"/>
+<attribute name="NAME" x="49.53" y="23.622" size="1.778" layer="95"/>
 </instance>
-<instance part="TOF4" gate="G$1" x="55.88" y="12.7" smashed="yes">
-<attribute name="VALUE" x="54.61" y="0" size="1.778" layer="96"/>
-<attribute name="NAME" x="54.61" y="23.622" size="1.778" layer="95"/>
+<instance part="FR_TOF" gate="G$1" x="78.74" y="12.7" smashed="yes">
+<attribute name="VALUE" x="77.47" y="0" size="1.778" layer="96"/>
+<attribute name="NAME" x="77.47" y="23.622" size="1.778" layer="95"/>
 </instance>
-<instance part="TOF5" gate="G$1" x="76.2" y="12.7" smashed="yes">
-<attribute name="VALUE" x="74.93" y="0" size="1.778" layer="96"/>
-<attribute name="NAME" x="74.93" y="23.622" size="1.778" layer="95"/>
+<instance part="R_TOF" gate="G$1" x="106.68" y="12.7" smashed="yes">
+<attribute name="VALUE" x="105.41" y="0" size="1.778" layer="96"/>
+<attribute name="NAME" x="105.41" y="23.622" size="1.778" layer="95"/>
 </instance>
-<instance part="REGULATOR" gate="J$1" x="147.32" y="63.5" smashed="yes">
-<attribute name="VALUE" x="144.78" y="56.134" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="144.78" y="69.088" size="1.778" layer="95" font="vector"/>
+<instance part="REGULATOR" gate="J$1" x="124.46" y="104.14" smashed="yes">
+<attribute name="VALUE" x="121.92" y="96.774" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="121.92" y="109.728" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="GND1" gate="G$1" x="137.16" y="88.9" smashed="yes"/>
+<instance part="GND1" gate="G$1" x="149.86" y="106.68" smashed="yes"/>
 <instance part="GND3" gate="G$1" x="60.96" y="73.66" smashed="yes"/>
 <instance part="GND4" gate="G$1" x="60.96" y="93.98" smashed="yes"/>
 <instance part="GND5" gate="G$1" x="60.96" y="53.34" smashed="yes"/>
-<instance part="GND2" gate="G$1" x="167.64" y="12.7" smashed="yes"/>
+<instance part="GND2" gate="G$1" x="152.4" y="63.5" smashed="yes"/>
 <instance part="GND6" gate="G$1" x="78.74" y="93.98" smashed="yes"/>
 <instance part="GND7" gate="G$1" x="60.96" y="33.02" smashed="yes"/>
 <instance part="GND8" gate="G$1" x="-7.62" y="45.72" smashed="yes"/>
-<instance part="GND9" gate="G$1" x="147.32" y="12.7" smashed="yes"/>
-<instance part="GND10" gate="G$1" x="127" y="12.7" smashed="yes"/>
-<instance part="GND11" gate="G$1" x="106.68" y="12.7" smashed="yes"/>
-<instance part="GND12" gate="G$1" x="91.44" y="15.24" smashed="yes"/>
-<instance part="GND13" gate="G$1" x="71.12" y="15.24" smashed="yes"/>
-<instance part="GND14" gate="G$1" x="50.8" y="15.24" smashed="yes"/>
-<instance part="GND15" gate="G$1" x="162.56" y="63.5" smashed="yes"/>
-<instance part="GND16" gate="G$1" x="30.48" y="15.24" smashed="yes"/>
-<instance part="GND17" gate="G$1" x="10.16" y="15.24" smashed="yes"/>
+<instance part="GND9" gate="G$1" x="132.08" y="63.5" smashed="yes"/>
+<instance part="GND10" gate="G$1" x="152.4" y="45.72" smashed="yes"/>
+<instance part="GND11" gate="G$1" x="132.08" y="45.72" smashed="yes"/>
+<instance part="GND12" gate="G$1" x="124.46" y="15.24" smashed="yes"/>
+<instance part="GND13" gate="G$1" x="96.52" y="15.24" smashed="yes"/>
+<instance part="GND14" gate="G$1" x="68.58" y="15.24" smashed="yes"/>
+<instance part="GND15" gate="G$1" x="139.7" y="104.14" smashed="yes"/>
+<instance part="GND17" gate="G$1" x="12.7" y="15.24" smashed="yes"/>
 <instance part="GND18" gate="G$1" x="78.74" y="73.66" smashed="yes"/>
 <instance part="GND19" gate="G$1" x="78.74" y="53.34" smashed="yes"/>
 <instance part="GND20" gate="G$1" x="78.74" y="33.02" smashed="yes"/>
+<instance part="IR_RECEIVER" gate="J$1" x="124.46" y="83.82" smashed="yes">
+<attribute name="VALUE" x="121.92" y="76.454" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="121.92" y="89.408" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="GND21" gate="G$1" x="139.7" y="83.82" smashed="yes"/>
+<instance part="C1" gate="G$1" x="12.7" y="17.78" smashed="yes">
+<attribute name="NAME" x="14.224" y="20.701" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="14.224" y="15.621" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="C2" gate="G$1" x="40.64" y="17.78" smashed="yes">
+<attribute name="NAME" x="42.164" y="20.701" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="42.164" y="15.621" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="C3" gate="G$1" x="68.58" y="17.78" smashed="yes">
+<attribute name="NAME" x="70.104" y="20.701" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="70.104" y="15.621" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="C4" gate="G$1" x="96.52" y="17.78" smashed="yes">
+<attribute name="NAME" x="98.044" y="20.701" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="98.044" y="15.621" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="C5" gate="G$1" x="124.46" y="17.78" smashed="yes">
+<attribute name="NAME" x="125.984" y="20.701" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="125.984" y="15.621" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="C6" gate="G$1" x="165.1" y="33.02" smashed="yes">
+<attribute name="NAME" x="166.624" y="35.941" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="166.624" y="30.861" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="GND16" gate="G$1" x="40.64" y="15.24" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -2714,8 +2958,8 @@ Battery Holder&lt;br&gt;
 <net name="VIN" class="0">
 <segment>
 <pinref part="BATT1" gate="G$1" pin="+"/>
-<junction x="152.4" y="88.9"/>
-<label x="154.94" y="88.9" size="1.778" layer="95"/>
+<junction x="165.1" y="106.68"/>
+<label x="167.64" y="106.68" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="SV1" gate="G$1" pin="2"/>
@@ -2723,9 +2967,13 @@ Battery Holder&lt;br&gt;
 <label x="78.74" y="96.52" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TOF1" gate="G$1" pin="6"/>
+<pinref part="L_TOF" gate="G$1" pin="6"/>
 <junction x="2.54" y="17.78"/>
 <label x="2.54" y="17.78" size="1.778" layer="95"/>
+<wire x1="2.54" y1="17.78" x2="10.16" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="17.78" x2="10.16" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="C1" gate="G$1" pin="1"/>
+<wire x1="10.16" y1="22.86" x2="12.7" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SV2" gate="G$1" pin="2"/>
@@ -2743,29 +2991,45 @@ Battery Holder&lt;br&gt;
 <label x="78.74" y="35.56" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TOF2" gate="G$1" pin="6"/>
-<junction x="22.86" y="17.78"/>
-<label x="22.86" y="17.78" size="1.778" layer="95"/>
+<pinref part="FL_TOF" gate="G$1" pin="6"/>
+<junction x="30.48" y="17.78"/>
+<label x="30.48" y="17.78" size="1.778" layer="95"/>
+<wire x1="30.48" y1="17.78" x2="38.1" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="17.78" x2="38.1" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="1"/>
+<wire x1="38.1" y1="22.86" x2="40.64" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="TOF3" gate="G$1" pin="6"/>
-<junction x="43.18" y="17.78"/>
-<label x="43.18" y="17.78" size="1.778" layer="95"/>
+<pinref part="F_TOF" gate="G$1" pin="6"/>
+<junction x="58.42" y="17.78"/>
+<label x="58.42" y="17.78" size="1.778" layer="95"/>
+<wire x1="58.42" y1="17.78" x2="66.04" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="17.78" x2="66.04" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="C3" gate="G$1" pin="1"/>
+<wire x1="66.04" y1="22.86" x2="68.58" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="TOF4" gate="G$1" pin="6"/>
-<junction x="63.5" y="17.78"/>
-<label x="63.5" y="17.78" size="1.778" layer="95"/>
+<pinref part="FR_TOF" gate="G$1" pin="6"/>
+<junction x="86.36" y="17.78"/>
+<label x="86.36" y="17.78" size="1.778" layer="95"/>
+<wire x1="86.36" y1="17.78" x2="93.98" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="17.78" x2="93.98" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="C4" gate="G$1" pin="1"/>
+<wire x1="93.98" y1="22.86" x2="96.52" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="TOF5" gate="G$1" pin="6"/>
-<junction x="83.82" y="17.78"/>
-<label x="83.82" y="17.78" size="1.778" layer="95"/>
+<pinref part="R_TOF" gate="G$1" pin="6"/>
+<junction x="114.3" y="17.78"/>
+<label x="114.3" y="17.78" size="1.778" layer="95"/>
+<wire x1="114.3" y1="17.78" x2="121.92" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="17.78" x2="121.92" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="C5" gate="G$1" pin="1"/>
+<wire x1="121.92" y1="22.86" x2="124.46" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="REGULATOR" gate="J$1" pin="1"/>
-<junction x="154.94" y="60.96"/>
-<label x="154.94" y="60.96" size="1.778" layer="95"/>
+<junction x="132.08" y="101.6"/>
+<label x="132.08" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -2806,34 +3070,9 @@ Battery Holder&lt;br&gt;
 <pinref part="GND11" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="TOF1" gate="G$1" pin="5"/>
-<pinref part="GND17" gate="G$1" pin="GND"/>
-<wire x1="2.54" y1="15.24" x2="10.16" y2="15.24" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND16" gate="G$1" pin="GND"/>
-<pinref part="TOF2" gate="G$1" pin="5"/>
-<wire x1="30.48" y1="15.24" x2="22.86" y2="15.24" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND14" gate="G$1" pin="GND"/>
-<pinref part="TOF3" gate="G$1" pin="5"/>
-<wire x1="50.8" y1="15.24" x2="43.18" y2="15.24" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="TOF4" gate="G$1" pin="5"/>
-<pinref part="GND13" gate="G$1" pin="GND"/>
-<wire x1="63.5" y1="15.24" x2="71.12" y2="15.24" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="TOF5" gate="G$1" pin="5"/>
-<pinref part="GND12" gate="G$1" pin="GND"/>
-<wire x1="83.82" y1="15.24" x2="91.44" y2="15.24" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="REGULATOR" gate="J$1" pin="2"/>
 <pinref part="GND15" gate="G$1" pin="GND"/>
-<wire x1="154.94" y1="63.5" x2="162.56" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="104.14" x2="139.7" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND8" gate="G$1" pin="GND"/>
@@ -2856,32 +3095,72 @@ Battery Holder&lt;br&gt;
 <pinref part="SV6" gate="G$1" pin="1"/>
 <pinref part="GND20" gate="G$1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="IR_RECEIVER" gate="J$1" pin="2"/>
+<pinref part="GND21" gate="G$1" pin="GND"/>
+<wire x1="132.08" y1="83.82" x2="139.7" y2="83.82" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="L_TOF" gate="G$1" pin="5"/>
+<pinref part="C1" gate="G$1" pin="2"/>
+<wire x1="2.54" y1="15.24" x2="12.7" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="GND17" gate="G$1" pin="GND"/>
+<junction x="12.7" y="15.24"/>
+</segment>
+<segment>
+<pinref part="FL_TOF" gate="G$1" pin="5"/>
+<wire x1="40.64" y1="15.24" x2="30.48" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="2"/>
+<pinref part="GND16" gate="G$1" pin="GND"/>
+<junction x="40.64" y="15.24"/>
+</segment>
+<segment>
+<pinref part="F_TOF" gate="G$1" pin="5"/>
+<pinref part="C3" gate="G$1" pin="2"/>
+<wire x1="58.42" y1="15.24" x2="68.58" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="GND14" gate="G$1" pin="GND"/>
+<junction x="68.58" y="15.24"/>
+</segment>
+<segment>
+<pinref part="FR_TOF" gate="G$1" pin="5"/>
+<pinref part="C4" gate="G$1" pin="2"/>
+<wire x1="86.36" y1="15.24" x2="96.52" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="GND13" gate="G$1" pin="GND"/>
+<junction x="96.52" y="15.24"/>
+</segment>
+<segment>
+<pinref part="R_TOF" gate="G$1" pin="5"/>
+<pinref part="C5" gate="G$1" pin="2"/>
+<wire x1="114.3" y1="15.24" x2="124.46" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="GND12" gate="G$1" pin="GND"/>
+<junction x="124.46" y="15.24"/>
+</segment>
 </net>
 <net name="SDA" class="0">
 <segment>
-<pinref part="TOF1" gate="G$1" pin="4"/>
+<pinref part="L_TOF" gate="G$1" pin="4"/>
 <junction x="2.54" y="12.7"/>
 <label x="2.54" y="12.7" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TOF2" gate="G$1" pin="4"/>
-<junction x="22.86" y="12.7"/>
-<label x="22.86" y="12.7" size="1.778" layer="95"/>
+<pinref part="FL_TOF" gate="G$1" pin="4"/>
+<junction x="30.48" y="12.7"/>
+<label x="30.48" y="12.7" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TOF3" gate="G$1" pin="4"/>
-<junction x="43.18" y="12.7"/>
-<label x="43.18" y="12.7" size="1.778" layer="95"/>
+<pinref part="F_TOF" gate="G$1" pin="4"/>
+<junction x="58.42" y="12.7"/>
+<label x="58.42" y="12.7" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TOF4" gate="G$1" pin="4"/>
-<junction x="63.5" y="12.7"/>
-<label x="63.5" y="12.7" size="1.778" layer="95"/>
+<pinref part="FR_TOF" gate="G$1" pin="4"/>
+<junction x="86.36" y="12.7"/>
+<label x="86.36" y="12.7" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TOF5" gate="G$1" pin="4"/>
-<junction x="83.82" y="12.7"/>
-<label x="83.82" y="12.7" size="1.778" layer="95"/>
+<pinref part="R_TOF" gate="G$1" pin="4"/>
+<junction x="114.3" y="12.7"/>
+<label x="114.3" y="12.7" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="B1" gate="G$1" pin="A3/17"/>
@@ -2891,29 +3170,29 @@ Battery Holder&lt;br&gt;
 </net>
 <net name="SCL" class="0">
 <segment>
-<pinref part="TOF1" gate="G$1" pin="3"/>
+<pinref part="L_TOF" gate="G$1" pin="3"/>
 <junction x="2.54" y="10.16"/>
 <label x="2.54" y="10.16" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TOF2" gate="G$1" pin="3"/>
-<junction x="22.86" y="10.16"/>
-<label x="22.86" y="10.16" size="1.778" layer="95"/>
+<pinref part="FL_TOF" gate="G$1" pin="3"/>
+<junction x="30.48" y="10.16"/>
+<label x="30.48" y="10.16" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TOF3" gate="G$1" pin="3"/>
-<junction x="43.18" y="10.16"/>
-<label x="43.18" y="10.16" size="1.778" layer="95"/>
+<pinref part="F_TOF" gate="G$1" pin="3"/>
+<junction x="58.42" y="10.16"/>
+<label x="58.42" y="10.16" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TOF4" gate="G$1" pin="3"/>
-<junction x="63.5" y="10.16"/>
-<label x="63.5" y="10.16" size="1.778" layer="95"/>
+<pinref part="FR_TOF" gate="G$1" pin="3"/>
+<junction x="86.36" y="10.16"/>
+<label x="86.36" y="10.16" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TOF5" gate="G$1" pin="3"/>
-<junction x="83.82" y="10.16"/>
-<label x="83.82" y="10.16" size="1.778" layer="95"/>
+<pinref part="R_TOF" gate="G$1" pin="3"/>
+<junction x="114.3" y="10.16"/>
+<label x="114.3" y="10.16" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="B1" gate="G$1" pin="A2/16"/>
@@ -2923,63 +3202,63 @@ Battery Holder&lt;br&gt;
 </net>
 <net name="XSHUT1" class="0">
 <segment>
-<pinref part="TOF1" gate="G$1" pin="2"/>
+<pinref part="L_TOF" gate="G$1" pin="2"/>
 <junction x="2.54" y="7.62"/>
 <label x="2.54" y="7.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO" class="0">
 <segment>
-<pinref part="TOF1" gate="G$1" pin="1"/>
+<pinref part="L_TOF" gate="G$1" pin="1"/>
 <junction x="2.54" y="5.08"/>
 <label x="2.54" y="5.08" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TOF2" gate="G$1" pin="1"/>
-<junction x="22.86" y="5.08"/>
-<label x="22.86" y="5.08" size="1.778" layer="95"/>
+<pinref part="FL_TOF" gate="G$1" pin="1"/>
+<junction x="30.48" y="5.08"/>
+<label x="30.48" y="5.08" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TOF3" gate="G$1" pin="1"/>
-<junction x="43.18" y="5.08"/>
-<label x="43.18" y="5.08" size="1.778" layer="95"/>
+<pinref part="F_TOF" gate="G$1" pin="1"/>
+<junction x="58.42" y="5.08"/>
+<label x="58.42" y="5.08" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TOF4" gate="G$1" pin="1"/>
-<junction x="63.5" y="5.08"/>
-<label x="63.5" y="5.08" size="1.778" layer="95"/>
+<pinref part="FR_TOF" gate="G$1" pin="1"/>
+<junction x="86.36" y="5.08"/>
+<label x="86.36" y="5.08" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TOF5" gate="G$1" pin="1"/>
-<junction x="83.82" y="5.08"/>
-<label x="83.82" y="5.08" size="1.778" layer="95"/>
+<pinref part="R_TOF" gate="G$1" pin="1"/>
+<junction x="114.3" y="5.08"/>
+<label x="114.3" y="5.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VDD" class="0">
 <segment>
-<pinref part="TOF1" gate="G$1" pin="7"/>
+<pinref part="L_TOF" gate="G$1" pin="7"/>
 <junction x="2.54" y="20.32"/>
 <label x="2.54" y="20.32" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TOF2" gate="G$1" pin="7"/>
-<junction x="22.86" y="20.32"/>
-<label x="22.86" y="20.32" size="1.778" layer="95"/>
+<pinref part="FL_TOF" gate="G$1" pin="7"/>
+<junction x="30.48" y="20.32"/>
+<label x="30.48" y="20.32" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TOF3" gate="G$1" pin="7"/>
-<junction x="43.18" y="20.32"/>
-<label x="43.18" y="20.32" size="1.778" layer="95"/>
+<pinref part="F_TOF" gate="G$1" pin="7"/>
+<junction x="58.42" y="20.32"/>
+<label x="58.42" y="20.32" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TOF4" gate="G$1" pin="7"/>
-<junction x="63.5" y="20.32"/>
-<label x="63.5" y="20.32" size="1.778" layer="95"/>
+<pinref part="FR_TOF" gate="G$1" pin="7"/>
+<junction x="86.36" y="20.32"/>
+<label x="86.36" y="20.32" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TOF5" gate="G$1" pin="7"/>
-<junction x="83.82" y="20.32"/>
-<label x="83.82" y="20.32" size="1.778" layer="95"/>
+<pinref part="R_TOF" gate="G$1" pin="7"/>
+<junction x="114.3" y="20.32"/>
+<label x="114.3" y="20.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VREG" class="0">
@@ -2990,35 +3269,40 @@ Battery Holder&lt;br&gt;
 </segment>
 <segment>
 <pinref part="REGULATOR" gate="J$1" pin="3"/>
-<junction x="154.94" y="66.04"/>
-<label x="154.94" y="66.04" size="1.778" layer="95"/>
+<junction x="132.08" y="106.68"/>
+<label x="132.08" y="106.68" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
 <segment>
-<pinref part="B1" gate="G$1" pin="3.3V"/>
-<junction x="0" y="60.96"/>
-<label x="-7.62" y="60.96" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="FL_REF" gate="J$1" pin="2"/>
-<junction x="106.68" y="15.24"/>
-<label x="106.68" y="15.24" size="1.778" layer="95"/>
+<junction x="132.08" y="48.26"/>
+<label x="132.08" y="48.26" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="BL_REF" gate="J$1" pin="2"/>
-<junction x="127" y="15.24"/>
-<label x="127" y="15.24" size="1.778" layer="95"/>
+<junction x="152.4" y="48.26"/>
+<label x="152.4" y="48.26" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="FR_REF" gate="J$1" pin="2"/>
-<junction x="147.32" y="15.24"/>
-<label x="147.32" y="15.24" size="1.778" layer="95"/>
+<junction x="132.08" y="66.04"/>
+<label x="132.08" y="66.04" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="BR_REF" gate="J$1" pin="2"/>
-<junction x="167.64" y="15.24"/>
-<label x="167.64" y="15.24" size="1.778" layer="95"/>
+<junction x="152.4" y="66.04"/>
+<label x="152.4" y="66.04" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="B1" gate="G$1" pin="3V"/>
+<junction x="0" y="63.5"/>
+<label x="-5.08" y="63.5" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IR_RECEIVER" gate="J$1" pin="3"/>
+<junction x="132.08" y="86.36"/>
+<label x="132.08" y="86.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -3077,37 +3361,37 @@ Battery Holder&lt;br&gt;
 </net>
 <net name="XSHUT2" class="0">
 <segment>
-<pinref part="TOF2" gate="G$1" pin="2"/>
-<junction x="22.86" y="7.62"/>
-<label x="22.86" y="7.62" size="1.778" layer="95"/>
+<pinref part="FL_TOF" gate="G$1" pin="2"/>
+<junction x="30.48" y="7.62"/>
+<label x="30.48" y="7.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="XSHUT3" class="0">
 <segment>
-<pinref part="TOF3" gate="G$1" pin="2"/>
-<junction x="43.18" y="7.62"/>
-<label x="43.18" y="7.62" size="1.778" layer="95"/>
+<pinref part="F_TOF" gate="G$1" pin="2"/>
+<junction x="58.42" y="7.62"/>
+<label x="58.42" y="7.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="XSHUT4" class="0">
 <segment>
-<pinref part="TOF4" gate="G$1" pin="2"/>
-<junction x="63.5" y="7.62"/>
-<label x="63.5" y="7.62" size="1.778" layer="95"/>
+<pinref part="FR_TOF" gate="G$1" pin="2"/>
+<junction x="86.36" y="7.62"/>
+<label x="86.36" y="7.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="XSHUT5" class="0">
 <segment>
-<pinref part="TOF5" gate="G$1" pin="2"/>
-<junction x="83.82" y="7.62"/>
-<label x="83.82" y="7.62" size="1.778" layer="95"/>
+<pinref part="R_TOF" gate="G$1" pin="2"/>
+<junction x="114.3" y="7.62"/>
+<label x="114.3" y="7.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="FL_REF" class="0">
 <segment>
 <pinref part="FL_REF" gate="J$1" pin="3"/>
-<junction x="106.68" y="17.78"/>
-<label x="106.68" y="17.78" size="1.778" layer="95"/>
+<junction x="132.08" y="50.8"/>
+<label x="132.08" y="50.8" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="B1" gate="G$1" pin="A0/14"/>
@@ -3118,8 +3402,8 @@ Battery Holder&lt;br&gt;
 <net name="BL_REF" class="0">
 <segment>
 <pinref part="BL_REF" gate="J$1" pin="3"/>
-<junction x="127" y="17.78"/>
-<label x="127" y="17.78" size="1.778" layer="95"/>
+<junction x="152.4" y="50.8"/>
+<label x="152.4" y="50.8" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="B1" gate="G$1" pin="A1/15"/>
@@ -3130,8 +3414,8 @@ Battery Holder&lt;br&gt;
 <net name="FR_REF" class="0">
 <segment>
 <pinref part="FR_REF" gate="J$1" pin="3"/>
-<junction x="147.32" y="17.78"/>
-<label x="147.32" y="17.78" size="1.778" layer="95"/>
+<junction x="132.08" y="68.58"/>
+<label x="132.08" y="68.58" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="B1" gate="G$1" pin="A6/20*"/>
@@ -3142,8 +3426,8 @@ Battery Holder&lt;br&gt;
 <net name="BR_REF" class="0">
 <segment>
 <pinref part="BR_REF" gate="J$1" pin="3"/>
-<junction x="167.64" y="17.78"/>
-<label x="167.64" y="17.78" size="1.778" layer="95"/>
+<junction x="152.4" y="68.58"/>
+<label x="152.4" y="68.58" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="B1" gate="G$1" pin="A7/21*"/>
