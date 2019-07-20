@@ -2599,6 +2599,64 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <vertex x="1.8364" y="-0.0051" curve="-90.012967"/>
 </polygon>
 </package>
+<package name="CAP-PTH-10MM" urn="urn:adsk.eagle:footprint:37393/1" library_version="1">
+<description>2 PTH spaced 10mm apart</description>
+<wire x1="-0.5" y1="0.635" x2="-0.5" y2="0" width="0.2032" layer="21"/>
+<wire x1="-0.5" y1="0" x2="-0.5" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="0.5" y1="0.635" x2="0.5" y2="0" width="0.2032" layer="21"/>
+<wire x1="0.5" y1="0" x2="0.5" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-0.5" y1="0" x2="-3.5" y2="0" width="0.2032" layer="21"/>
+<wire x1="0.5" y1="0" x2="3.5" y2="0" width="0.2032" layer="21"/>
+<pad name="1" x="-5" y="0" drill="0.9" diameter="1.651"/>
+<pad name="2" x="5" y="0" drill="0.9" diameter="1.651"/>
+<text x="0" y="1" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
+<text x="0" y="-1" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
+</package>
+<package name="1206" urn="urn:adsk.eagle:footprint:37399/1" library_version="1">
+<description>&lt;p&gt;&lt;b&gt;Generic 3216 (1206) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<wire x1="-2.4" y1="1.1" x2="2.4" y2="1.1" width="0.0508" layer="39"/>
+<wire x1="2.4" y1="-1.1" x2="-2.4" y2="-1.1" width="0.0508" layer="39"/>
+<wire x1="-2.4" y1="-1.1" x2="-2.4" y2="1.1" width="0.0508" layer="39"/>
+<wire x1="2.4" y1="1.1" x2="2.4" y2="-1.1" width="0.0508" layer="39"/>
+<wire x1="-0.965" y1="0.787" x2="0.965" y2="0.787" width="0.1016" layer="51"/>
+<wire x1="-0.965" y1="-0.787" x2="0.965" y2="-0.787" width="0.1016" layer="51"/>
+<smd name="1" x="-1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
+<smd name="2" x="1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
+<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<rectangle x1="-1.7018" y1="-0.8509" x2="-0.9517" y2="0.8491" layer="51"/>
+<rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+</package>
+<package name="0805" urn="urn:adsk.eagle:footprint:37400/1" library_version="1">
+<description>&lt;p&gt;&lt;b&gt;Generic 2012 (0805) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<smd name="1" x="-0.9" y="0" dx="0.8" dy="1.2" layer="1"/>
+<smd name="2" x="0.9" y="0" dx="0.8" dy="1.2" layer="1"/>
+<text x="0" y="0.889" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.889" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="-1.5" y1="0.8" x2="1.5" y2="0.8" width="0.0508" layer="39"/>
+<wire x1="1.5" y1="0.8" x2="1.5" y2="-0.8" width="0.0508" layer="39"/>
+<wire x1="1.5" y1="-0.8" x2="-1.5" y2="-0.8" width="0.0508" layer="39"/>
+<wire x1="-1.5" y1="-0.8" x2="-1.5" y2="0.8" width="0.0508" layer="39"/>
+</package>
+<package name="1210" urn="urn:adsk.eagle:footprint:37401/1" library_version="1">
+<description>&lt;p&gt;&lt;b&gt;Generic 3225 (1210) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<wire x1="-1.5365" y1="1.1865" x2="1.5365" y2="1.1865" width="0.127" layer="51"/>
+<wire x1="1.5365" y1="1.1865" x2="1.5365" y2="-1.1865" width="0.127" layer="51"/>
+<wire x1="1.5365" y1="-1.1865" x2="-1.5365" y2="-1.1865" width="0.127" layer="51"/>
+<wire x1="-1.5365" y1="-1.1865" x2="-1.5365" y2="1.1865" width="0.127" layer="51"/>
+<wire x1="-2.59" y1="1.45" x2="2.59" y2="1.45" width="0.0508" layer="39"/>
+<wire x1="2.59" y1="1.45" x2="2.59" y2="-1.45" width="0.0508" layer="39"/>
+<wire x1="2.59" y1="-1.45" x2="-2.59" y2="-1.45" width="0.0508" layer="39"/>
+<wire x1="-2.59" y1="-1.45" x2="-2.59" y2="1.45" width="0.0508" layer="39"/>
+<smd name="1" x="-1.755" y="0" dx="1.27" dy="2.06" layer="1"/>
+<smd name="2" x="1.755" y="0" dx="1.27" dy="2.06" layer="1"/>
+<text x="0" y="1.397" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.397" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="0402" urn="urn:adsk.eagle:package:37413/1" type="box" library_version="1">
@@ -2622,6 +2680,33 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 Warning: This is the KIT version of this package. This package has a smaller diameter top stop mask, which doesn't cover the diameter of the pad. This means only the bottom side of the pads' copper will be exposed. You'll only be able to solder to the bottom side.</description>
 <packageinstances>
 <packageinstance name="CAP-PTH-SMALL-KIT"/>
+</packageinstances>
+</package3d>
+<package3d name="CAP-PTH-10MM" urn="urn:adsk.eagle:package:37419/1" type="box" library_version="1">
+<description>2 PTH spaced 10mm apart</description>
+<packageinstances>
+<packageinstance name="CAP-PTH-10MM"/>
+</packageinstances>
+</package3d>
+<package3d name="1206" urn="urn:adsk.eagle:package:37426/1" type="box" library_version="1">
+<description>Generic 3216 (1206) package
+0.2mm courtyard excess rounded to nearest 0.05mm.</description>
+<packageinstances>
+<packageinstance name="1206"/>
+</packageinstances>
+</package3d>
+<package3d name="0805" urn="urn:adsk.eagle:package:37429/1" type="box" library_version="1">
+<description>Generic 2012 (0805) package
+0.2mm courtyard excess rounded to nearest 0.05mm.</description>
+<packageinstances>
+<packageinstance name="0805"/>
+</packageinstances>
+</package3d>
+<package3d name="1210" urn="urn:adsk.eagle:package:37436/1" type="box" library_version="1">
+<description>Generic 3225 (1210) package
+0.2mm courtyard excess rounded to nearest 0.05mm.</description>
+<packageinstances>
+<packageinstance name="1210"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -2722,6 +2807,200 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 </device>
 </devices>
 </deviceset>
+<deviceset name="10NF" urn="urn:adsk.eagle:component:37465/1" prefix="C" library_version="1">
+<description>&lt;h3&gt;0.01uF/10nF/10,000pF ceramic capacitors&lt;/h3&gt;
+&lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;
+
+CAP-09321</description>
+<gates>
+<gate name="G$1" symbol="CAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-PTH-10MM-10000V-1-%" package="CAP-PTH-10MM">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:37419/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-09321"/>
+<attribute name="VALUE" value="10nF"/>
+</technology>
+</technologies>
+</device>
+<device name="-0603-50V-10%" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:37414/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-00867"/>
+<attribute name="VALUE" value="10nF"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="10UF" urn="urn:adsk.eagle:component:37478/1" prefix="C" library_version="1">
+<description>&lt;h3&gt;10.0µF ceramic capacitors&lt;/h3&gt;
+&lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="CAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-0603-6.3V-20%" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:37414/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-11015"/>
+<attribute name="VALUE" value="10uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-1206-6.3V-20%" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:37426/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-10057"/>
+<attribute name="VALUE" value="10uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-0805-10V-10%" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:37429/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-11330"/>
+<attribute name="VALUE" value="10uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-1210-50V-20%" package="1210">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:37436/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-09824"/>
+<attribute name="VALUE" value="10uF"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1.0UF" urn="urn:adsk.eagle:component:37474/1" prefix="C" library_version="1">
+<description>&lt;h3&gt;1µF ceramic capacitors&lt;/h3&gt;
+&lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="CAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-0603-16V-10%" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:37414/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-00868"/>
+<attribute name="VALUE" value="1.0uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-0402-16V-10%" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:37413/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-12417"/>
+<attribute name="VALUE" value="1.0uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-0805-25V-(+80/-20%)" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:37429/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-11625"/>
+<attribute name="VALUE" value="1.0uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-1206-50V-10%" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:37426/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-09822"/>
+<attribute name="VALUE" value="1.0uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-0805-25V-10%" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:37429/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-08064"/>
+<attribute name="VALUE" value="1.0uF"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -2763,7 +3042,6 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <part name="GND4" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
 <part name="GND5" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
 <part name="GND2" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
-<part name="GND6" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
 <part name="GND7" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
 <part name="GND8" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
 <part name="GND9" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
@@ -2772,10 +3050,7 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <part name="GND12" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
 <part name="GND13" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
 <part name="GND14" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
-<part name="GND15" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
 <part name="GND17" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
-<part name="GND18" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
-<part name="GND19" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
 <part name="GND20" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
 <part name="IR_RECEIVER" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="" package3d_urn="urn:adsk.eagle:package:38063/1"/>
 <part name="GND21" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
@@ -2784,8 +3059,19 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <part name="C3" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0603-25V-5%" package3d_urn="urn:adsk.eagle:package:37414/1" value="0.1uF"/>
 <part name="C4" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0603-25V-5%" package3d_urn="urn:adsk.eagle:package:37414/1" value="0.1uF"/>
 <part name="C5" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0603-25V-5%" package3d_urn="urn:adsk.eagle:package:37414/1" value="0.1uF"/>
-<part name="C6" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0603-25V-5%" package3d_urn="urn:adsk.eagle:package:37414/1" value="0.1uF"/>
 <part name="GND16" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
+<part name="C6" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="10NF" device="-0603-50V-10%" package3d_urn="urn:adsk.eagle:package:37414/1" value="10nF"/>
+<part name="C7" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="10UF" device="-0603-6.3V-20%" package3d_urn="urn:adsk.eagle:package:37414/1" value="10uF"/>
+<part name="GND22" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
+<part name="C8" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="1.0UF" device="-0603-16V-10%" package3d_urn="urn:adsk.eagle:package:37414/1" value="1.0uF"/>
+<part name="GND15" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
+<part name="C9" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0603-25V-5%" package3d_urn="urn:adsk.eagle:package:37414/1" value="0.1uF"/>
+<part name="GND23" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
+<part name="C10" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0603-25V-5%" package3d_urn="urn:adsk.eagle:package:37414/1" value="0.1uF"/>
+<part name="GND24" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
+<part name="C11" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0603-25V-5%" package3d_urn="urn:adsk.eagle:package:37414/1" value="0.1uF"/>
+<part name="GND25" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
+<part name="C12" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0603-25V-5%" package3d_urn="urn:adsk.eagle:package:37414/1" value="0.1uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -2812,21 +3098,21 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <attribute name="NAME" x="96.52" y="99.06" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="96.52" y="96.52" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="FL_REF" gate="J$1" x="124.46" y="48.26" smashed="yes">
-<attribute name="NAME" x="121.92" y="53.848" size="1.778" layer="95" font="vector"/>
+<instance part="FL_REF" gate="J$1" x="139.7" y="86.36" smashed="yes">
+<attribute name="NAME" x="137.16" y="91.948" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="BATT1" gate="G$1" x="157.48" y="106.68" smashed="yes">
-<attribute name="NAME" x="153.67" y="109.855" size="1.778" layer="95"/>
-<attribute name="VALUE" x="153.67" y="101.6" size="1.778" layer="96"/>
+<instance part="BATT1" gate="G$1" x="134.62" y="43.18" smashed="yes">
+<attribute name="NAME" x="130.81" y="46.355" size="1.778" layer="95"/>
+<attribute name="VALUE" x="130.81" y="38.1" size="1.778" layer="96"/>
 </instance>
-<instance part="BL_REF" gate="J$1" x="144.78" y="48.26" smashed="yes">
-<attribute name="NAME" x="142.24" y="53.848" size="1.778" layer="95" font="vector"/>
+<instance part="BL_REF" gate="J$1" x="160.02" y="86.36" smashed="yes">
+<attribute name="NAME" x="157.48" y="91.948" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="FR_REF" gate="J$1" x="124.46" y="66.04" smashed="yes">
-<attribute name="NAME" x="121.92" y="71.628" size="1.778" layer="95" font="vector"/>
+<instance part="FR_REF" gate="J$1" x="139.7" y="104.14" smashed="yes">
+<attribute name="NAME" x="137.16" y="109.728" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="BR_REF" gate="J$1" x="144.78" y="66.04" smashed="yes">
-<attribute name="NAME" x="142.24" y="71.628" size="1.778" layer="95" font="vector"/>
+<instance part="BR_REF" gate="J$1" x="160.02" y="104.14" smashed="yes">
+<attribute name="NAME" x="157.48" y="109.728" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="SV2" gate="G$1" x="71.12" y="78.74" smashed="yes">
 <attribute name="VALUE" x="69.85" y="68.58" size="1.778" layer="96"/>
@@ -2872,42 +3158,38 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <attribute name="VALUE" x="49.53" y="0" size="1.778" layer="96"/>
 <attribute name="NAME" x="49.53" y="23.622" size="1.778" layer="95"/>
 </instance>
-<instance part="FR_TOF" gate="G$1" x="78.74" y="12.7" smashed="yes">
-<attribute name="VALUE" x="77.47" y="0" size="1.778" layer="96"/>
-<attribute name="NAME" x="77.47" y="23.622" size="1.778" layer="95"/>
+<instance part="FR_TOF" gate="G$1" x="86.36" y="12.7" smashed="yes">
+<attribute name="VALUE" x="85.09" y="0" size="1.778" layer="96"/>
+<attribute name="NAME" x="85.09" y="23.622" size="1.778" layer="95"/>
 </instance>
-<instance part="R_TOF" gate="G$1" x="106.68" y="12.7" smashed="yes">
-<attribute name="VALUE" x="105.41" y="0" size="1.778" layer="96"/>
-<attribute name="NAME" x="105.41" y="23.622" size="1.778" layer="95"/>
+<instance part="R_TOF" gate="G$1" x="114.3" y="12.7" smashed="yes">
+<attribute name="VALUE" x="113.03" y="0" size="1.778" layer="96"/>
+<attribute name="NAME" x="113.03" y="23.622" size="1.778" layer="95"/>
 </instance>
-<instance part="REGULATOR" gate="J$1" x="124.46" y="104.14" smashed="yes">
-<attribute name="VALUE" x="121.92" y="96.774" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="121.92" y="109.728" size="1.778" layer="95" font="vector"/>
+<instance part="REGULATOR" gate="J$1" x="149.86" y="63.5" smashed="yes">
+<attribute name="VALUE" x="147.32" y="56.134" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="147.32" y="69.088" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="GND1" gate="G$1" x="149.86" y="106.68" smashed="yes"/>
+<instance part="GND1" gate="G$1" x="127" y="43.18" smashed="yes"/>
 <instance part="GND3" gate="G$1" x="60.96" y="73.66" smashed="yes"/>
 <instance part="GND4" gate="G$1" x="60.96" y="93.98" smashed="yes"/>
 <instance part="GND5" gate="G$1" x="60.96" y="53.34" smashed="yes"/>
-<instance part="GND2" gate="G$1" x="152.4" y="63.5" smashed="yes"/>
-<instance part="GND6" gate="G$1" x="78.74" y="93.98" smashed="yes"/>
+<instance part="GND2" gate="G$1" x="167.64" y="101.6" smashed="yes"/>
 <instance part="GND7" gate="G$1" x="60.96" y="33.02" smashed="yes"/>
 <instance part="GND8" gate="G$1" x="-7.62" y="45.72" smashed="yes"/>
-<instance part="GND9" gate="G$1" x="132.08" y="63.5" smashed="yes"/>
-<instance part="GND10" gate="G$1" x="152.4" y="45.72" smashed="yes"/>
-<instance part="GND11" gate="G$1" x="132.08" y="45.72" smashed="yes"/>
-<instance part="GND12" gate="G$1" x="124.46" y="15.24" smashed="yes"/>
-<instance part="GND13" gate="G$1" x="96.52" y="15.24" smashed="yes"/>
+<instance part="GND9" gate="G$1" x="147.32" y="101.6" smashed="yes"/>
+<instance part="GND10" gate="G$1" x="167.64" y="83.82" smashed="yes"/>
+<instance part="GND11" gate="G$1" x="147.32" y="83.82" smashed="yes"/>
+<instance part="GND12" gate="G$1" x="132.08" y="15.24" smashed="yes"/>
+<instance part="GND13" gate="G$1" x="104.14" y="15.24" smashed="yes"/>
 <instance part="GND14" gate="G$1" x="68.58" y="15.24" smashed="yes"/>
-<instance part="GND15" gate="G$1" x="139.7" y="104.14" smashed="yes"/>
 <instance part="GND17" gate="G$1" x="12.7" y="15.24" smashed="yes"/>
-<instance part="GND18" gate="G$1" x="78.74" y="73.66" smashed="yes"/>
-<instance part="GND19" gate="G$1" x="78.74" y="53.34" smashed="yes"/>
-<instance part="GND20" gate="G$1" x="78.74" y="33.02" smashed="yes"/>
-<instance part="IR_RECEIVER" gate="J$1" x="124.46" y="83.82" smashed="yes">
-<attribute name="VALUE" x="121.92" y="76.454" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="121.92" y="89.408" size="1.778" layer="95" font="vector"/>
+<instance part="GND20" gate="G$1" x="81.28" y="27.94" smashed="yes"/>
+<instance part="IR_RECEIVER" gate="J$1" x="154.94" y="40.64" smashed="yes">
+<attribute name="VALUE" x="152.4" y="33.274" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="152.4" y="46.228" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="GND21" gate="G$1" x="139.7" y="83.82" smashed="yes"/>
+<instance part="GND21" gate="G$1" x="170.18" y="40.64" smashed="yes"/>
 <instance part="C1" gate="G$1" x="12.7" y="17.78" smashed="yes">
 <attribute name="NAME" x="14.224" y="20.701" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="14.224" y="15.621" size="1.778" layer="96" font="vector"/>
@@ -2920,19 +3202,48 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <attribute name="NAME" x="70.104" y="20.701" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="70.104" y="15.621" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="C4" gate="G$1" x="96.52" y="17.78" smashed="yes">
-<attribute name="NAME" x="98.044" y="20.701" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="98.044" y="15.621" size="1.778" layer="96" font="vector"/>
+<instance part="C4" gate="G$1" x="104.14" y="17.78" smashed="yes">
+<attribute name="NAME" x="105.664" y="20.701" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="105.664" y="15.621" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="C5" gate="G$1" x="124.46" y="17.78" smashed="yes">
-<attribute name="NAME" x="125.984" y="20.701" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="125.984" y="15.621" size="1.778" layer="96" font="vector"/>
-</instance>
-<instance part="C6" gate="G$1" x="165.1" y="33.02" smashed="yes">
-<attribute name="NAME" x="166.624" y="35.941" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="166.624" y="30.861" size="1.778" layer="96" font="vector"/>
+<instance part="C5" gate="G$1" x="132.08" y="17.78" smashed="yes">
+<attribute name="NAME" x="133.604" y="20.701" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="133.604" y="15.621" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="GND16" gate="G$1" x="40.64" y="15.24" smashed="yes"/>
+<instance part="C6" gate="G$1" x="129.54" y="66.04" smashed="yes">
+<attribute name="NAME" x="131.064" y="68.961" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="131.064" y="63.881" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="C7" gate="G$1" x="139.7" y="66.04" smashed="yes">
+<attribute name="NAME" x="141.224" y="68.961" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="141.224" y="63.881" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="GND22" gate="G$1" x="134.62" y="60.96" smashed="yes"/>
+<instance part="C8" gate="G$1" x="167.64" y="63.5" smashed="yes">
+<attribute name="NAME" x="169.164" y="66.421" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="169.164" y="61.341" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="GND15" gate="G$1" x="172.72" y="73.66" smashed="yes"/>
+<instance part="C9" gate="G$1" x="81.28" y="30.48" smashed="yes">
+<attribute name="NAME" x="82.804" y="33.401" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="82.804" y="28.321" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="GND23" gate="G$1" x="81.28" y="48.26" smashed="yes"/>
+<instance part="C10" gate="G$1" x="81.28" y="50.8" smashed="yes">
+<attribute name="NAME" x="82.804" y="53.721" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="82.804" y="48.641" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="GND24" gate="G$1" x="81.28" y="68.58" smashed="yes"/>
+<instance part="C11" gate="G$1" x="81.28" y="71.12" smashed="yes">
+<attribute name="NAME" x="82.804" y="74.041" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="82.804" y="68.961" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="GND25" gate="G$1" x="81.28" y="88.9" smashed="yes"/>
+<instance part="C12" gate="G$1" x="81.28" y="91.44" smashed="yes">
+<attribute name="NAME" x="82.804" y="94.361" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="82.804" y="89.281" size="1.778" layer="96" font="vector"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -2958,8 +3269,8 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <net name="VIN" class="0">
 <segment>
 <pinref part="BATT1" gate="G$1" pin="+"/>
-<junction x="165.1" y="106.68"/>
-<label x="167.64" y="106.68" size="1.778" layer="95"/>
+<junction x="142.24" y="43.18"/>
+<label x="144.78" y="43.18" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="SV1" gate="G$1" pin="2"/>
@@ -2989,6 +3300,8 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <pinref part="SV6" gate="G$1" pin="2"/>
 <junction x="78.74" y="35.56"/>
 <label x="78.74" y="35.56" size="1.778" layer="95"/>
+<pinref part="C9" gate="G$1" pin="1"/>
+<wire x1="78.74" y1="35.56" x2="81.28" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="FL_TOF" gate="G$1" pin="6"/>
@@ -3010,26 +3323,28 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 </segment>
 <segment>
 <pinref part="FR_TOF" gate="G$1" pin="6"/>
-<junction x="86.36" y="17.78"/>
-<label x="86.36" y="17.78" size="1.778" layer="95"/>
-<wire x1="86.36" y1="17.78" x2="93.98" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="17.78" x2="93.98" y2="22.86" width="0.1524" layer="91"/>
+<junction x="93.98" y="17.78"/>
+<label x="93.98" y="17.78" size="1.778" layer="95"/>
+<wire x1="93.98" y1="17.78" x2="101.6" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="17.78" x2="101.6" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="93.98" y1="22.86" x2="96.52" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="22.86" x2="104.14" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R_TOF" gate="G$1" pin="6"/>
-<junction x="114.3" y="17.78"/>
-<label x="114.3" y="17.78" size="1.778" layer="95"/>
-<wire x1="114.3" y1="17.78" x2="121.92" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="17.78" x2="121.92" y2="22.86" width="0.1524" layer="91"/>
+<junction x="121.92" y="17.78"/>
+<label x="121.92" y="17.78" size="1.778" layer="95"/>
+<wire x1="121.92" y1="17.78" x2="129.54" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="17.78" x2="129.54" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="1"/>
-<wire x1="121.92" y1="22.86" x2="124.46" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="22.86" x2="132.08" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="REGULATOR" gate="J$1" pin="1"/>
-<junction x="132.08" y="101.6"/>
-<label x="132.08" y="101.6" size="1.778" layer="95"/>
+<junction x="157.48" y="60.96"/>
+<label x="157.48" y="60.96" size="1.778" layer="95"/>
+<pinref part="C8" gate="G$1" pin="2"/>
+<wire x1="157.48" y1="60.96" x2="167.64" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -3070,35 +3385,22 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <pinref part="GND11" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="REGULATOR" gate="J$1" pin="2"/>
-<pinref part="GND15" gate="G$1" pin="GND"/>
-<wire x1="132.08" y1="104.14" x2="139.7" y2="104.14" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="GND8" gate="G$1" pin="GND"/>
 <pinref part="B1" gate="G$1" pin="GND"/>
 <wire x1="-7.62" y1="45.72" x2="0" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="SV1" gate="G$1" pin="1"/>
-<pinref part="GND6" gate="G$1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="SV2" gate="G$1" pin="1"/>
-<pinref part="GND18" gate="G$1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="SV4" gate="G$1" pin="1"/>
-<pinref part="GND19" gate="G$1" pin="GND"/>
-</segment>
-<segment>
 <pinref part="SV6" gate="G$1" pin="1"/>
 <pinref part="GND20" gate="G$1" pin="GND"/>
+<pinref part="C9" gate="G$1" pin="2"/>
+<junction x="81.28" y="27.94"/>
+<wire x1="81.28" y1="27.94" x2="78.74" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="27.94" x2="78.74" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IR_RECEIVER" gate="J$1" pin="2"/>
 <pinref part="GND21" gate="G$1" pin="GND"/>
-<wire x1="132.08" y1="83.82" x2="139.7" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="40.64" x2="170.18" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="L_TOF" gate="G$1" pin="5"/>
@@ -3124,16 +3426,61 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <segment>
 <pinref part="FR_TOF" gate="G$1" pin="5"/>
 <pinref part="C4" gate="G$1" pin="2"/>
-<wire x1="86.36" y1="15.24" x2="96.52" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="15.24" x2="104.14" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="GND13" gate="G$1" pin="GND"/>
-<junction x="96.52" y="15.24"/>
+<junction x="104.14" y="15.24"/>
 </segment>
 <segment>
 <pinref part="R_TOF" gate="G$1" pin="5"/>
 <pinref part="C5" gate="G$1" pin="2"/>
-<wire x1="114.3" y1="15.24" x2="124.46" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="15.24" x2="132.08" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="GND12" gate="G$1" pin="GND"/>
-<junction x="124.46" y="15.24"/>
+<junction x="132.08" y="15.24"/>
+</segment>
+<segment>
+<pinref part="C6" gate="G$1" pin="2"/>
+<pinref part="C7" gate="G$1" pin="2"/>
+<pinref part="GND22" gate="G$1" pin="GND"/>
+<junction x="134.62" y="60.96"/>
+<wire x1="134.62" y1="60.96" x2="129.54" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="60.96" x2="129.54" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="60.96" x2="139.7" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="60.96" x2="139.7" y2="63.5" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="REGULATOR" gate="J$1" pin="2"/>
+<wire x1="157.48" y1="63.5" x2="165.1" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="63.5" x2="165.1" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="C8" gate="G$1" pin="1"/>
+<wire x1="167.64" y1="68.58" x2="165.1" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="68.58" x2="165.1" y2="73.66" width="0.1524" layer="91"/>
+<junction x="165.1" y="68.58"/>
+<wire x1="165.1" y1="73.66" x2="172.72" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="GND15" gate="G$1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="GND23" gate="G$1" pin="GND"/>
+<pinref part="C10" gate="G$1" pin="2"/>
+<junction x="81.28" y="48.26"/>
+<wire x1="81.28" y1="48.26" x2="78.74" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="48.26" x2="78.74" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="SV4" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="GND24" gate="G$1" pin="GND"/>
+<pinref part="C11" gate="G$1" pin="2"/>
+<junction x="81.28" y="68.58"/>
+<wire x1="81.28" y1="68.58" x2="78.74" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="68.58" x2="78.74" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="SV2" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="GND25" gate="G$1" pin="GND"/>
+<pinref part="C12" gate="G$1" pin="2"/>
+<junction x="81.28" y="88.9"/>
+<wire x1="81.28" y1="88.9" x2="78.74" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="88.9" x2="78.74" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="SV1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="SDA" class="0">
@@ -3154,13 +3501,13 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 </segment>
 <segment>
 <pinref part="FR_TOF" gate="G$1" pin="4"/>
-<junction x="86.36" y="12.7"/>
-<label x="86.36" y="12.7" size="1.778" layer="95"/>
+<junction x="93.98" y="12.7"/>
+<label x="93.98" y="12.7" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R_TOF" gate="G$1" pin="4"/>
-<junction x="114.3" y="12.7"/>
-<label x="114.3" y="12.7" size="1.778" layer="95"/>
+<junction x="121.92" y="12.7"/>
+<label x="121.92" y="12.7" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="B1" gate="G$1" pin="A3/17"/>
@@ -3186,13 +3533,13 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 </segment>
 <segment>
 <pinref part="FR_TOF" gate="G$1" pin="3"/>
-<junction x="86.36" y="10.16"/>
-<label x="86.36" y="10.16" size="1.778" layer="95"/>
+<junction x="93.98" y="10.16"/>
+<label x="93.98" y="10.16" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R_TOF" gate="G$1" pin="3"/>
-<junction x="114.3" y="10.16"/>
-<label x="114.3" y="10.16" size="1.778" layer="95"/>
+<junction x="121.92" y="10.16"/>
+<label x="121.92" y="10.16" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="B1" gate="G$1" pin="A2/16"/>
@@ -3225,13 +3572,13 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 </segment>
 <segment>
 <pinref part="FR_TOF" gate="G$1" pin="1"/>
-<junction x="86.36" y="5.08"/>
-<label x="86.36" y="5.08" size="1.778" layer="95"/>
+<junction x="93.98" y="5.08"/>
+<label x="93.98" y="5.08" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R_TOF" gate="G$1" pin="1"/>
-<junction x="114.3" y="5.08"/>
-<label x="114.3" y="5.08" size="1.778" layer="95"/>
+<junction x="121.92" y="5.08"/>
+<label x="121.92" y="5.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VDD" class="0">
@@ -3252,13 +3599,13 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 </segment>
 <segment>
 <pinref part="FR_TOF" gate="G$1" pin="7"/>
-<junction x="86.36" y="20.32"/>
-<label x="86.36" y="20.32" size="1.778" layer="95"/>
+<junction x="93.98" y="20.32"/>
+<label x="93.98" y="20.32" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R_TOF" gate="G$1" pin="7"/>
-<junction x="114.3" y="20.32"/>
-<label x="114.3" y="20.32" size="1.778" layer="95"/>
+<junction x="121.92" y="20.32"/>
+<label x="121.92" y="20.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VREG" class="0">
@@ -3267,32 +3614,27 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <junction x="0" y="66.04"/>
 <label x="-7.62" y="66.04" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="REGULATOR" gate="J$1" pin="3"/>
-<junction x="132.08" y="106.68"/>
-<label x="132.08" y="106.68" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="3.3V" class="0">
 <segment>
 <pinref part="FL_REF" gate="J$1" pin="2"/>
-<junction x="132.08" y="48.26"/>
-<label x="132.08" y="48.26" size="1.778" layer="95"/>
+<junction x="147.32" y="86.36"/>
+<label x="147.32" y="86.36" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="BL_REF" gate="J$1" pin="2"/>
-<junction x="152.4" y="48.26"/>
-<label x="152.4" y="48.26" size="1.778" layer="95"/>
+<junction x="167.64" y="86.36"/>
+<label x="167.64" y="86.36" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="FR_REF" gate="J$1" pin="2"/>
-<junction x="132.08" y="66.04"/>
-<label x="132.08" y="66.04" size="1.778" layer="95"/>
+<junction x="147.32" y="104.14"/>
+<label x="147.32" y="104.14" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="BR_REF" gate="J$1" pin="2"/>
-<junction x="152.4" y="66.04"/>
-<label x="152.4" y="66.04" size="1.778" layer="95"/>
+<junction x="167.64" y="104.14"/>
+<label x="167.64" y="104.14" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="B1" gate="G$1" pin="3V"/>
@@ -3301,8 +3643,20 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 </segment>
 <segment>
 <pinref part="IR_RECEIVER" gate="J$1" pin="3"/>
-<junction x="132.08" y="86.36"/>
-<label x="132.08" y="86.36" size="1.778" layer="95"/>
+<junction x="162.56" y="43.18"/>
+<label x="162.56" y="43.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="REGULATOR" gate="J$1" pin="3"/>
+<wire x1="157.48" y1="66.04" x2="162.56" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="C7" gate="G$1" pin="1"/>
+<wire x1="139.7" y1="71.12" x2="139.7" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="73.66" x2="139.7" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="C6" gate="G$1" pin="1"/>
+<wire x1="129.54" y1="71.12" x2="129.54" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="73.66" x2="162.56" y2="73.66" width="0.1524" layer="91"/>
+<junction x="139.7" y="73.66"/>
+<wire x1="162.56" y1="73.66" x2="162.56" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -3376,22 +3730,22 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <net name="XSHUT4" class="0">
 <segment>
 <pinref part="FR_TOF" gate="G$1" pin="2"/>
-<junction x="86.36" y="7.62"/>
-<label x="86.36" y="7.62" size="1.778" layer="95"/>
+<junction x="93.98" y="7.62"/>
+<label x="93.98" y="7.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="XSHUT5" class="0">
 <segment>
 <pinref part="R_TOF" gate="G$1" pin="2"/>
-<junction x="114.3" y="7.62"/>
-<label x="114.3" y="7.62" size="1.778" layer="95"/>
+<junction x="121.92" y="7.62"/>
+<label x="121.92" y="7.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="FL_REF" class="0">
 <segment>
 <pinref part="FL_REF" gate="J$1" pin="3"/>
-<junction x="132.08" y="50.8"/>
-<label x="132.08" y="50.8" size="1.778" layer="95"/>
+<junction x="147.32" y="88.9"/>
+<label x="147.32" y="88.9" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="B1" gate="G$1" pin="A0/14"/>
@@ -3402,8 +3756,8 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <net name="BL_REF" class="0">
 <segment>
 <pinref part="BL_REF" gate="J$1" pin="3"/>
-<junction x="152.4" y="50.8"/>
-<label x="152.4" y="50.8" size="1.778" layer="95"/>
+<junction x="167.64" y="88.9"/>
+<label x="167.64" y="88.9" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="B1" gate="G$1" pin="A1/15"/>
@@ -3414,8 +3768,8 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <net name="FR_REF" class="0">
 <segment>
 <pinref part="FR_REF" gate="J$1" pin="3"/>
-<junction x="132.08" y="68.58"/>
-<label x="132.08" y="68.58" size="1.778" layer="95"/>
+<junction x="147.32" y="106.68"/>
+<label x="147.32" y="106.68" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="B1" gate="G$1" pin="A6/20*"/>
@@ -3426,8 +3780,8 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <net name="BR_REF" class="0">
 <segment>
 <pinref part="BR_REF" gate="J$1" pin="3"/>
-<junction x="152.4" y="68.58"/>
-<label x="152.4" y="68.58" size="1.778" layer="95"/>
+<junction x="167.64" y="106.68"/>
+<label x="167.64" y="106.68" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="B1" gate="G$1" pin="A7/21*"/>
@@ -3515,6 +3869,30 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <pinref part="B1" gate="G$1" pin="10*/TX2/CS"/>
 <junction x="33.02" y="43.18"/>
 <label x="33.02" y="43.18" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VOUT" class="0">
+<segment>
+<pinref part="IR_RECEIVER" gate="J$1" pin="1"/>
+<junction x="162.56" y="38.1"/>
+</segment>
+</net>
+<net name="VIN1" class="0">
+<segment>
+<pinref part="C10" gate="G$1" pin="1"/>
+<wire x1="78.74" y1="55.88" x2="81.28" y2="55.88" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="VIN2" class="0">
+<segment>
+<pinref part="C11" gate="G$1" pin="1"/>
+<wire x1="78.74" y1="76.2" x2="81.28" y2="76.2" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="VIN3" class="0">
+<segment>
+<pinref part="C12" gate="G$1" pin="1"/>
+<wire x1="78.74" y1="96.52" x2="81.28" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
