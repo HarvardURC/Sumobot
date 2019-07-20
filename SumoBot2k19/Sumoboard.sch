@@ -2527,7 +2527,7 @@ Battery Holder&lt;br&gt;
 <part name="SV1" library="con-lsta" library_urn="urn:adsk.eagle:library:161" deviceset="FE05-1" device="" package3d_urn="urn:adsk.eagle:package:8190/1"/>
 <part name="SV7" library="con-lsta" library_urn="urn:adsk.eagle:library:161" deviceset="FE05-1" device="" package3d_urn="urn:adsk.eagle:package:8190/1"/>
 <part name="TOF1" library="con-lsta" library_urn="urn:adsk.eagle:library:161" deviceset="FE07-1" device="" package3d_urn="urn:adsk.eagle:package:8223/1"/>
-<part name="M4" library="SparkFun-Electromechanical" library_urn="urn:adsk.eagle:library:516" deviceset="MOTOR" device="10MM" package3d_urn="urn:adsk.eagle:package:38555/1"/>
+<part name="FL_MOTOR" library="SparkFun-Electromechanical" library_urn="urn:adsk.eagle:library:516" deviceset="MOTOR" device="10MM" package3d_urn="urn:adsk.eagle:package:38555/1"/>
 <part name="FL_REF" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="JST-SMD" package3d_urn="urn:adsk.eagle:package:38075/1" value="3-PIN SMD"/>
 <part name="BATT1" library="DC_LOAD_AU" library_urn="urn:adsk.eagle:library:220454" deviceset="2464_BATT_HOLDER" device="" package3d_urn="urn:adsk.eagle:package:220525/3"/>
 <part name="BL_REF" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="JST-SMD" package3d_urn="urn:adsk.eagle:package:38075/1" value="3-PIN SMD"/>
@@ -2535,13 +2535,13 @@ Battery Holder&lt;br&gt;
 <part name="BR_REF" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="JST-SMD" package3d_urn="urn:adsk.eagle:package:38075/1" value="3-PIN SMD"/>
 <part name="SV2" library="con-lsta" library_urn="urn:adsk.eagle:library:161" deviceset="FE05-1" device="" package3d_urn="urn:adsk.eagle:package:8190/1"/>
 <part name="SV3" library="con-lsta" library_urn="urn:adsk.eagle:library:161" deviceset="FE05-1" device="" package3d_urn="urn:adsk.eagle:package:8190/1"/>
-<part name="M1" library="SparkFun-Electromechanical" library_urn="urn:adsk.eagle:library:516" deviceset="MOTOR" device="10MM" package3d_urn="urn:adsk.eagle:package:38555/1"/>
+<part name="BL_MOTOR" library="SparkFun-Electromechanical" library_urn="urn:adsk.eagle:library:516" deviceset="MOTOR" device="10MM" package3d_urn="urn:adsk.eagle:package:38555/1"/>
 <part name="SV4" library="con-lsta" library_urn="urn:adsk.eagle:library:161" deviceset="FE05-1" device="" package3d_urn="urn:adsk.eagle:package:8190/1"/>
 <part name="SV5" library="con-lsta" library_urn="urn:adsk.eagle:library:161" deviceset="FE05-1" device="" package3d_urn="urn:adsk.eagle:package:8190/1"/>
-<part name="M2" library="SparkFun-Electromechanical" library_urn="urn:adsk.eagle:library:516" deviceset="MOTOR" device="10MM" package3d_urn="urn:adsk.eagle:package:38555/1"/>
+<part name="FR_MOTOR" library="SparkFun-Electromechanical" library_urn="urn:adsk.eagle:library:516" deviceset="MOTOR" device="10MM" package3d_urn="urn:adsk.eagle:package:38555/1"/>
 <part name="SV6" library="con-lsta" library_urn="urn:adsk.eagle:library:161" deviceset="FE05-1" device="" package3d_urn="urn:adsk.eagle:package:8190/1"/>
 <part name="SV8" library="con-lsta" library_urn="urn:adsk.eagle:library:161" deviceset="FE05-1" device="" package3d_urn="urn:adsk.eagle:package:8190/1"/>
-<part name="M3" library="SparkFun-Electromechanical" library_urn="urn:adsk.eagle:library:516" deviceset="MOTOR" device="10MM" package3d_urn="urn:adsk.eagle:package:38555/1"/>
+<part name="BR_MOTOR" library="SparkFun-Electromechanical" library_urn="urn:adsk.eagle:library:516" deviceset="MOTOR" device="10MM" package3d_urn="urn:adsk.eagle:package:38555/1"/>
 <part name="TOF2" library="con-lsta" library_urn="urn:adsk.eagle:library:161" deviceset="FE07-1" device="" package3d_urn="urn:adsk.eagle:package:8223/1"/>
 <part name="TOF3" library="con-lsta" library_urn="urn:adsk.eagle:library:161" deviceset="FE07-1" device="" package3d_urn="urn:adsk.eagle:package:8223/1"/>
 <part name="TOF4" library="con-lsta" library_urn="urn:adsk.eagle:library:161" deviceset="FE07-1" device="" package3d_urn="urn:adsk.eagle:package:8223/1"/>
@@ -2573,9 +2573,9 @@ Battery Holder&lt;br&gt;
 <plain>
 </plain>
 <instances>
-<instance part="B1" gate="G$1" x="22.86" y="73.66" smashed="yes">
-<attribute name="NAME" x="17.78" y="104.394" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="17.78" y="40.386" size="1.778" layer="96" font="vector" align="top-left"/>
+<instance part="B1" gate="G$1" x="17.78" y="73.66" smashed="yes">
+<attribute name="NAME" x="12.7" y="104.394" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="12.7" y="40.386" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
 <instance part="SV1" gate="G$1" x="71.12" y="99.06" smashed="yes">
 <attribute name="VALUE" x="69.85" y="88.9" size="1.778" layer="96"/>
@@ -2589,7 +2589,7 @@ Battery Holder&lt;br&gt;
 <attribute name="VALUE" x="-6.35" y="0" size="1.778" layer="96"/>
 <attribute name="NAME" x="-6.35" y="23.622" size="1.778" layer="95"/>
 </instance>
-<instance part="M4" gate="G$1" x="93.98" y="99.06" smashed="yes">
+<instance part="FL_MOTOR" gate="G$1" x="93.98" y="99.06" smashed="yes">
 <attribute name="NAME" x="96.52" y="99.06" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="96.52" y="96.52" size="1.778" layer="96" font="vector"/>
 </instance>
@@ -2621,7 +2621,7 @@ Battery Holder&lt;br&gt;
 <attribute name="VALUE" x="69.85" y="88.9" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="69.85" y="70.358" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="M1" gate="G$1" x="93.98" y="78.74" smashed="yes">
+<instance part="BL_MOTOR" gate="G$1" x="93.98" y="78.74" smashed="yes">
 <attribute name="NAME" x="96.52" y="78.74" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="96.52" y="76.2" size="1.778" layer="96" font="vector"/>
 </instance>
@@ -2633,7 +2633,7 @@ Battery Holder&lt;br&gt;
 <attribute name="VALUE" x="69.85" y="68.58" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="69.85" y="50.038" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="M2" gate="G$1" x="93.98" y="58.42" smashed="yes">
+<instance part="FR_MOTOR" gate="G$1" x="93.98" y="58.42" smashed="yes">
 <attribute name="NAME" x="96.52" y="58.42" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="96.52" y="55.88" size="1.778" layer="96" font="vector"/>
 </instance>
@@ -2645,7 +2645,7 @@ Battery Holder&lt;br&gt;
 <attribute name="VALUE" x="69.85" y="48.26" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="69.85" y="29.718" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="M3" gate="G$1" x="93.98" y="38.1" smashed="yes">
+<instance part="BR_MOTOR" gate="G$1" x="93.98" y="38.1" smashed="yes">
 <attribute name="NAME" x="96.52" y="38.1" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="96.52" y="35.56" size="1.778" layer="96" font="vector"/>
 </instance>
@@ -2676,7 +2676,7 @@ Battery Holder&lt;br&gt;
 <instance part="GND2" gate="G$1" x="167.64" y="12.7" smashed="yes"/>
 <instance part="GND6" gate="G$1" x="78.74" y="93.98" smashed="yes"/>
 <instance part="GND7" gate="G$1" x="60.96" y="33.02" smashed="yes"/>
-<instance part="GND8" gate="G$1" x="-2.54" y="45.72" smashed="yes"/>
+<instance part="GND8" gate="G$1" x="-7.62" y="45.72" smashed="yes"/>
 <instance part="GND9" gate="G$1" x="147.32" y="12.7" smashed="yes"/>
 <instance part="GND10" gate="G$1" x="127" y="12.7" smashed="yes"/>
 <instance part="GND11" gate="G$1" x="106.68" y="12.7" smashed="yes"/>
@@ -2698,7 +2698,7 @@ Battery Holder&lt;br&gt;
 <pinref part="SV1" gate="G$1" pin="4"/>
 <wire x1="78.74" y1="101.6" x2="88.9" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="101.6" x2="88.9" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="M4" gate="G$1" pin="+"/>
+<pinref part="FL_MOTOR" gate="G$1" pin="+"/>
 <wire x1="88.9" y1="104.14" x2="93.98" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -2707,7 +2707,7 @@ Battery Holder&lt;br&gt;
 <pinref part="SV1" gate="G$1" pin="3"/>
 <wire x1="78.74" y1="99.06" x2="88.9" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="99.06" x2="88.9" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="M4" gate="G$1" pin="-"/>
+<pinref part="FL_MOTOR" gate="G$1" pin="-"/>
 <wire x1="88.9" y1="93.98" x2="93.98" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -2838,7 +2838,7 @@ Battery Holder&lt;br&gt;
 <segment>
 <pinref part="GND8" gate="G$1" pin="GND"/>
 <pinref part="B1" gate="G$1" pin="GND"/>
-<wire x1="-2.54" y1="45.72" x2="5.08" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="45.72" x2="0" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SV1" gate="G$1" pin="1"/>
@@ -2885,8 +2885,8 @@ Battery Holder&lt;br&gt;
 </segment>
 <segment>
 <pinref part="B1" gate="G$1" pin="A3/17"/>
-<junction x="5.08" y="93.98"/>
-<label x="0" y="93.98" size="1.778" layer="95"/>
+<junction x="0" y="93.98"/>
+<label x="-5.08" y="93.98" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -2917,8 +2917,8 @@ Battery Holder&lt;br&gt;
 </segment>
 <segment>
 <pinref part="B1" gate="G$1" pin="A2/16"/>
-<junction x="5.08" y="96.52"/>
-<label x="0" y="96.52" size="1.778" layer="95"/>
+<junction x="0" y="96.52"/>
+<label x="-5.08" y="96.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="XSHUT1" class="0">
@@ -2955,12 +2955,6 @@ Battery Holder&lt;br&gt;
 <label x="83.82" y="5.08" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="SV7" gate="G$1" pin="2"/>
-<junction x="60.96" y="101.6"/>
-</segment>
-</net>
 <net name="VDD" class="0">
 <segment>
 <pinref part="TOF1" gate="G$1" pin="7"/>
@@ -2988,29 +2982,11 @@ Battery Holder&lt;br&gt;
 <label x="83.82" y="20.32" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="RS2" class="0">
-<segment>
-<pinref part="B1" gate="G$1" pin="3*"/>
-<junction x="38.1" y="78.74"/>
-</segment>
-</net>
-<net name="RS3" class="0">
-<segment>
-<pinref part="B1" gate="G$1" pin="4*"/>
-<junction x="38.1" y="76.2"/>
-</segment>
-</net>
-<net name="RS4" class="0">
-<segment>
-<pinref part="B1" gate="G$1" pin="5*"/>
-<junction x="38.1" y="73.66"/>
-</segment>
-</net>
 <net name="VREG" class="0">
 <segment>
 <pinref part="B1" gate="G$1" pin="VIN"/>
-<junction x="5.08" y="66.04"/>
-<label x="-2.54" y="66.04" size="1.778" layer="95"/>
+<junction x="0" y="66.04"/>
+<label x="-7.62" y="66.04" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="REGULATOR" gate="J$1" pin="3"/>
@@ -3021,8 +2997,8 @@ Battery Holder&lt;br&gt;
 <net name="3.3V" class="0">
 <segment>
 <pinref part="B1" gate="G$1" pin="3.3V"/>
-<junction x="5.08" y="60.96"/>
-<label x="-2.54" y="60.96" size="1.778" layer="95"/>
+<junction x="0" y="60.96"/>
+<label x="-7.62" y="60.96" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="FL_REF" gate="J$1" pin="2"/>
@@ -3045,30 +3021,12 @@ Battery Holder&lt;br&gt;
 <label x="167.64" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$6" class="0">
-<segment>
-<pinref part="B1" gate="G$1" pin="13/SCK"/>
-<junction x="38.1" y="50.8"/>
-</segment>
-</net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="B1" gate="G$1" pin="12/DIN"/>
-<junction x="38.1" y="48.26"/>
-</segment>
-</net>
-<net name="N$13" class="0">
-<segment>
-<pinref part="B1" gate="G$1" pin="11/DOUT"/>
-<junction x="38.1" y="45.72"/>
-</segment>
-</net>
 <net name="N$15" class="0">
 <segment>
 <pinref part="SV2" gate="G$1" pin="4"/>
 <wire x1="78.74" y1="81.28" x2="88.9" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="81.28" x2="88.9" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="M1" gate="G$1" pin="+"/>
+<pinref part="BL_MOTOR" gate="G$1" pin="+"/>
 <wire x1="88.9" y1="83.82" x2="93.98" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -3077,14 +3035,8 @@ Battery Holder&lt;br&gt;
 <pinref part="SV2" gate="G$1" pin="3"/>
 <wire x1="78.74" y1="78.74" x2="88.9" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="78.74" x2="88.9" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="M1" gate="G$1" pin="-"/>
+<pinref part="BL_MOTOR" gate="G$1" pin="-"/>
 <wire x1="88.9" y1="73.66" x2="93.98" y2="73.66" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$17" class="0">
-<segment>
-<pinref part="SV3" gate="G$1" pin="2"/>
-<junction x="60.96" y="81.28"/>
 </segment>
 </net>
 <net name="N$19" class="0">
@@ -3092,7 +3044,7 @@ Battery Holder&lt;br&gt;
 <pinref part="SV4" gate="G$1" pin="4"/>
 <wire x1="78.74" y1="60.96" x2="88.9" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="60.96" x2="88.9" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="M2" gate="G$1" pin="+"/>
+<pinref part="FR_MOTOR" gate="G$1" pin="+"/>
 <wire x1="88.9" y1="63.5" x2="93.98" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -3101,14 +3053,8 @@ Battery Holder&lt;br&gt;
 <pinref part="SV4" gate="G$1" pin="3"/>
 <wire x1="78.74" y1="58.42" x2="88.9" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="58.42" x2="88.9" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="M2" gate="G$1" pin="-"/>
+<pinref part="FR_MOTOR" gate="G$1" pin="-"/>
 <wire x1="88.9" y1="53.34" x2="93.98" y2="53.34" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$21" class="0">
-<segment>
-<pinref part="SV5" gate="G$1" pin="2"/>
-<junction x="60.96" y="60.96"/>
 </segment>
 </net>
 <net name="N$23" class="0">
@@ -3116,7 +3062,7 @@ Battery Holder&lt;br&gt;
 <pinref part="SV6" gate="G$1" pin="4"/>
 <wire x1="78.74" y1="40.64" x2="88.9" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="40.64" x2="88.9" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="M3" gate="G$1" pin="+"/>
+<pinref part="BR_MOTOR" gate="G$1" pin="+"/>
 <wire x1="88.9" y1="43.18" x2="93.98" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -3125,62 +3071,8 @@ Battery Holder&lt;br&gt;
 <pinref part="SV6" gate="G$1" pin="3"/>
 <wire x1="78.74" y1="38.1" x2="88.9" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="38.1" x2="88.9" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="M3" gate="G$1" pin="-"/>
+<pinref part="BR_MOTOR" gate="G$1" pin="-"/>
 <wire x1="88.9" y1="33.02" x2="93.98" y2="33.02" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$25" class="0">
-<segment>
-<pinref part="SV8" gate="G$1" pin="2"/>
-<junction x="60.96" y="40.64"/>
-</segment>
-</net>
-<net name="PWM1" class="0">
-<segment>
-<pinref part="SV7" gate="G$1" pin="1"/>
-<junction x="60.96" y="104.14"/>
-<label x="53.34" y="104.14" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="B1" gate="G$1" pin="A8/22*"/>
-<junction x="5.08" y="81.28"/>
-<label x="-2.54" y="81.28" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="PWM2" class="0">
-<segment>
-<pinref part="SV3" gate="G$1" pin="1"/>
-<junction x="60.96" y="83.82"/>
-<label x="53.34" y="83.82" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="B1" gate="G$1" pin="A9/23*"/>
-<junction x="5.08" y="78.74"/>
-<label x="-2.54" y="78.74" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="PWM3" class="0">
-<segment>
-<pinref part="SV5" gate="G$1" pin="1"/>
-<junction x="60.96" y="63.5"/>
-<label x="53.34" y="63.5" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="B1" gate="G$1" pin="9*/RX2"/>
-<junction x="38.1" y="63.5"/>
-<label x="38.1" y="63.5" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="PWM4" class="0">
-<segment>
-<pinref part="SV8" gate="G$1" pin="1"/>
-<junction x="60.96" y="43.18"/>
-<label x="53.34" y="43.18" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="B1" gate="G$1" pin="10*/TX2/CS"/>
-<junction x="38.1" y="43.18"/>
-<label x="38.1" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="XSHUT2" class="0">
@@ -3219,8 +3111,8 @@ Battery Holder&lt;br&gt;
 </segment>
 <segment>
 <pinref part="B1" gate="G$1" pin="A0/14"/>
-<junction x="5.08" y="101.6"/>
-<label x="-5.08" y="101.6" size="1.778" layer="95"/>
+<junction x="0" y="101.6"/>
+<label x="-10.16" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BL_REF" class="0">
@@ -3231,8 +3123,8 @@ Battery Holder&lt;br&gt;
 </segment>
 <segment>
 <pinref part="B1" gate="G$1" pin="A1/15"/>
-<junction x="5.08" y="99.06"/>
-<label x="-5.08" y="99.06" size="1.778" layer="95"/>
+<junction x="0" y="99.06"/>
+<label x="-10.16" y="99.06" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="FR_REF" class="0">
@@ -3243,8 +3135,8 @@ Battery Holder&lt;br&gt;
 </segment>
 <segment>
 <pinref part="B1" gate="G$1" pin="A6/20*"/>
-<junction x="5.08" y="86.36"/>
-<label x="-5.08" y="86.36" size="1.778" layer="95"/>
+<junction x="0" y="86.36"/>
+<label x="-10.16" y="86.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BR_REF" class="0">
@@ -3255,8 +3147,90 @@ Battery Holder&lt;br&gt;
 </segment>
 <segment>
 <pinref part="B1" gate="G$1" pin="A7/21*"/>
-<junction x="5.08" y="83.82"/>
-<label x="-5.08" y="83.82" size="1.778" layer="95"/>
+<junction x="0" y="83.82"/>
+<label x="-10.16" y="83.82" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="RIGHT_DIR" class="0">
+<segment>
+<pinref part="B1" gate="G$1" pin="8/TX3"/>
+<junction x="33.02" y="66.04"/>
+<label x="33.02" y="66.04" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="SV5" gate="G$1" pin="2"/>
+<junction x="60.96" y="60.96"/>
+<label x="48.26" y="60.96" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="SV8" gate="G$1" pin="2"/>
+<junction x="60.96" y="40.64"/>
+<label x="48.26" y="40.64" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LEFT_DIR" class="0">
+<segment>
+<pinref part="B1" gate="G$1" pin="2"/>
+<junction x="33.02" y="81.28"/>
+<label x="33.02" y="81.28" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="SV7" gate="G$1" pin="2"/>
+<junction x="60.96" y="101.6"/>
+<label x="48.26" y="101.6" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="SV3" gate="G$1" pin="2"/>
+<junction x="60.96" y="81.28"/>
+<label x="48.26" y="81.28" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="FL_PWM" class="0">
+<segment>
+<pinref part="SV7" gate="G$1" pin="1"/>
+<junction x="60.96" y="104.14"/>
+<label x="50.8" y="104.14" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="B1" gate="G$1" pin="3*"/>
+<junction x="33.02" y="78.74"/>
+<label x="33.02" y="78.74" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BL_PWM" class="0">
+<segment>
+<pinref part="SV3" gate="G$1" pin="1"/>
+<junction x="60.96" y="83.82"/>
+<label x="50.8" y="83.82" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="B1" gate="G$1" pin="4*"/>
+<junction x="33.02" y="76.2"/>
+<label x="33.02" y="76.2" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="FR_PWM" class="0">
+<segment>
+<pinref part="SV5" gate="G$1" pin="1"/>
+<junction x="60.96" y="63.5"/>
+<label x="50.8" y="63.5" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="B1" gate="G$1" pin="9*/RX2"/>
+<junction x="33.02" y="63.5"/>
+<label x="33.02" y="63.5" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BR_PWM" class="0">
+<segment>
+<pinref part="SV8" gate="G$1" pin="1"/>
+<junction x="60.96" y="43.18"/>
+<label x="50.8" y="43.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="B1" gate="G$1" pin="10*/TX2/CS"/>
+<junction x="33.02" y="43.18"/>
+<label x="33.02" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
