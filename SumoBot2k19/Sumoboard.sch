@@ -3170,7 +3170,7 @@ CAP-09321</description>
 <attribute name="VALUE" x="147.32" y="56.134" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="147.32" y="69.088" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="GND1" gate="G$1" x="119.38" y="50.8" smashed="yes"/>
+<instance part="GND1" gate="G$1" x="127" y="43.18" smashed="yes"/>
 <instance part="GND3" gate="G$1" x="60.96" y="73.66" smashed="yes"/>
 <instance part="GND4" gate="G$1" x="60.96" y="93.98" smashed="yes"/>
 <instance part="GND5" gate="G$1" x="60.96" y="53.34" smashed="yes"/>
@@ -3351,7 +3351,6 @@ CAP-09321</description>
 <segment>
 <pinref part="BATT1" gate="G$1" pin="-"/>
 <pinref part="GND1" gate="G$1" pin="GND"/>
-<wire x1="119.38" y1="50.8" x2="127" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SV7" gate="G$1" pin="5"/>
