@@ -66,7 +66,7 @@
 <layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
 <layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="88" name="SimResults" color="9" fill="1" visible="no" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
@@ -3101,9 +3101,9 @@ CAP-09321</description>
 <instance part="FL_REF" gate="J$1" x="139.7" y="86.36" smashed="yes">
 <attribute name="NAME" x="137.16" y="91.948" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="BATT1" gate="G$1" x="190.5" y="55.88" smashed="yes" rot="MR0">
-<attribute name="NAME" x="194.31" y="59.055" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="194.31" y="50.8" size="1.778" layer="96" rot="MR0"/>
+<instance part="BATT1" gate="G$1" x="134.62" y="43.18" smashed="yes">
+<attribute name="NAME" x="130.81" y="46.355" size="1.778" layer="95"/>
+<attribute name="VALUE" x="130.81" y="38.1" size="1.778" layer="96"/>
 </instance>
 <instance part="BL_REF" gate="J$1" x="160.02" y="86.36" smashed="yes">
 <attribute name="NAME" x="157.48" y="91.948" size="1.778" layer="95" font="vector"/>
@@ -3170,7 +3170,7 @@ CAP-09321</description>
 <attribute name="VALUE" x="147.32" y="56.134" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="147.32" y="69.088" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="GND1" gate="G$1" x="198.12" y="55.88" smashed="yes"/>
+<instance part="GND1" gate="G$1" x="127" y="43.18" smashed="yes"/>
 <instance part="GND3" gate="G$1" x="60.96" y="73.66" smashed="yes"/>
 <instance part="GND4" gate="G$1" x="60.96" y="93.98" smashed="yes"/>
 <instance part="GND5" gate="G$1" x="60.96" y="53.34" smashed="yes"/>
@@ -3268,6 +3268,11 @@ CAP-09321</description>
 </net>
 <net name="VIN" class="0">
 <segment>
+<pinref part="BATT1" gate="G$1" pin="+"/>
+<junction x="142.24" y="43.18"/>
+<label x="144.78" y="43.18" size="1.778" layer="95"/>
+</segment>
+<segment>
 <pinref part="SV1" gate="G$1" pin="2"/>
 <junction x="78.74" y="96.52"/>
 <label x="78.74" y="96.52" size="1.778" layer="95"/>
@@ -3340,11 +3345,6 @@ CAP-09321</description>
 <label x="157.48" y="60.96" size="1.778" layer="95"/>
 <pinref part="C8" gate="G$1" pin="2"/>
 <wire x1="157.48" y1="60.96" x2="167.64" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="60.96" x2="182.88" y2="60.96" width="0.1524" layer="91"/>
-<junction x="167.64" y="60.96"/>
-<pinref part="BATT1" gate="G$1" pin="+"/>
-<junction x="182.88" y="55.88"/>
-<wire x1="182.88" y1="60.96" x2="182.88" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -3664,21 +3664,6 @@ CAP-09321</description>
 <junction x="162.56" y="43.18"/>
 <label x="162.56" y="43.18" size="1.778" layer="95"/>
 </segment>
-<<<<<<< HEAD
-<segment>
-<pinref part="REGULATOR" gate="J$1" pin="3"/>
-<wire x1="157.48" y1="66.04" x2="162.56" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="C7" gate="G$1" pin="1"/>
-<wire x1="139.7" y1="71.12" x2="139.7" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="C6" gate="G$1" pin="1"/>
-<wire x1="129.54" y1="71.12" x2="129.54" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="73.66" x2="162.56" y2="73.66" width="0.1524" layer="91"/>
-<junction x="139.7" y="73.66"/>
-<wire x1="162.56" y1="73.66" x2="162.56" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="73.66" x2="139.7" y2="73.66" width="0.1524" layer="91"/>
-</segment>
-=======
->>>>>>> f10550aeea0dc74b4494af4baa6c277cfe62f025
 </net>
 <net name="N$15" class="0">
 <segment>
