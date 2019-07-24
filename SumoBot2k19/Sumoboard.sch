@@ -3189,7 +3189,7 @@ CAP-09321</description>
 <attribute name="VALUE" x="152.4" y="33.274" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="152.4" y="46.228" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="GND21" gate="G$1" x="170.18" y="40.64" smashed="yes"/>
+<instance part="GND21" gate="G$1" x="175.26" y="40.64" smashed="yes"/>
 <instance part="C1" gate="G$1" x="12.7" y="17.78" smashed="yes">
 <attribute name="NAME" x="14.224" y="20.701" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="14.224" y="15.621" size="1.778" layer="96" font="vector"/>
@@ -3400,7 +3400,7 @@ CAP-09321</description>
 <segment>
 <pinref part="IR_RECEIVER" gate="J$1" pin="2"/>
 <pinref part="GND21" gate="G$1" pin="GND"/>
-<wire x1="162.56" y1="40.64" x2="170.18" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="40.64" x2="175.26" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="L_TOF" gate="G$1" pin="5"/>
@@ -3547,11 +3547,16 @@ CAP-09321</description>
 <label x="-5.08" y="96.52" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="XSHUT1" class="0">
+<net name="XSHUT_L" class="0">
 <segment>
 <pinref part="L_TOF" gate="G$1" pin="2"/>
 <junction x="2.54" y="7.62"/>
 <label x="2.54" y="7.62" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="B1" gate="G$1" pin="0/RX1"/>
+<junction x="33.02" y="86.36"/>
+<label x="33.02" y="86.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO" class="0">
@@ -3614,6 +3619,19 @@ CAP-09321</description>
 <junction x="0" y="66.04"/>
 <label x="-7.62" y="66.04" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="REGULATOR" gate="J$1" pin="3"/>
+<wire x1="157.48" y1="66.04" x2="162.56" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="C7" gate="G$1" pin="1"/>
+<wire x1="139.7" y1="71.12" x2="139.7" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="73.66" x2="139.7" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="C6" gate="G$1" pin="1"/>
+<wire x1="129.54" y1="71.12" x2="129.54" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="73.66" x2="162.56" y2="73.66" width="0.1524" layer="91"/>
+<junction x="139.7" y="73.66"/>
+<wire x1="162.56" y1="73.66" x2="162.56" y2="66.04" width="0.1524" layer="91"/>
+<label x="139.7" y="73.66" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="3.3V" class="0">
 <segment>
@@ -3645,18 +3663,6 @@ CAP-09321</description>
 <pinref part="IR_RECEIVER" gate="J$1" pin="3"/>
 <junction x="162.56" y="43.18"/>
 <label x="162.56" y="43.18" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="REGULATOR" gate="J$1" pin="3"/>
-<wire x1="157.48" y1="66.04" x2="162.56" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="C7" gate="G$1" pin="1"/>
-<wire x1="139.7" y1="71.12" x2="139.7" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="73.66" x2="139.7" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="C6" gate="G$1" pin="1"/>
-<wire x1="129.54" y1="71.12" x2="129.54" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="73.66" x2="162.56" y2="73.66" width="0.1524" layer="91"/>
-<junction x="139.7" y="73.66"/>
-<wire x1="162.56" y1="73.66" x2="162.56" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -3713,32 +3719,52 @@ CAP-09321</description>
 <wire x1="88.9" y1="33.02" x2="93.98" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="XSHUT2" class="0">
+<net name="XSHUT_FL" class="0">
 <segment>
 <pinref part="FL_TOF" gate="G$1" pin="2"/>
 <junction x="30.48" y="7.62"/>
 <label x="30.48" y="7.62" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="B1" gate="G$1" pin="1/TX1"/>
+<junction x="33.02" y="83.82"/>
+<label x="33.02" y="83.82" size="1.778" layer="95"/>
+</segment>
 </net>
-<net name="XSHUT3" class="0">
+<net name="XSHUT_F" class="0">
 <segment>
 <pinref part="F_TOF" gate="G$1" pin="2"/>
 <junction x="58.42" y="7.62"/>
 <label x="58.42" y="7.62" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="B1" gate="G$1" pin="5*"/>
+<junction x="33.02" y="73.66"/>
+<label x="33.02" y="73.66" size="1.778" layer="95"/>
+</segment>
 </net>
-<net name="XSHUT4" class="0">
+<net name="XSHUT_FR" class="0">
 <segment>
 <pinref part="FR_TOF" gate="G$1" pin="2"/>
 <junction x="93.98" y="7.62"/>
 <label x="93.98" y="7.62" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="B1" gate="G$1" pin="6*"/>
+<junction x="33.02" y="71.12"/>
+<label x="33.02" y="71.12" size="1.778" layer="95"/>
+</segment>
 </net>
-<net name="XSHUT5" class="0">
+<net name="XSHUT_R" class="0">
 <segment>
 <pinref part="R_TOF" gate="G$1" pin="2"/>
 <junction x="121.92" y="7.62"/>
 <label x="121.92" y="7.62" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="B1" gate="G$1" pin="7/RX3"/>
+<junction x="33.02" y="68.58"/>
+<label x="33.02" y="68.58" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="FL_REF" class="0">
@@ -3871,10 +3897,16 @@ CAP-09321</description>
 <label x="33.02" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="VOUT" class="0">
+<net name="VOUT_IR" class="0">
 <segment>
 <pinref part="IR_RECEIVER" gate="J$1" pin="1"/>
 <junction x="162.56" y="38.1"/>
+<label x="162.56" y="38.1" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="B1" gate="G$1" pin="12/DIN"/>
+<junction x="33.02" y="48.26"/>
+<label x="33.02" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VIN1" class="0">
