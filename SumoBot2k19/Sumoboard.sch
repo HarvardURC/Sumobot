@@ -3006,6 +3006,7 @@ Number of pins: &lt;b&gt;2&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <part name="BR_MOTOR" library="Rembrandt Electronics - JST XH Connectors v1-0" deviceset="JST-XH-02-PIN" device="-LONG-PAD"/>
 <part name="FR_MOTOR" library="Rembrandt Electronics - JST XH Connectors v1-0" deviceset="JST-XH-02-PIN" device="-LONG-PAD"/>
 <part name="BATTERY" library="Rembrandt Electronics - JST XH Connectors v1-0" deviceset="JST-XH-02-PIN" device="-LONG-PAD"/>
+<part name="GND1" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
 </parts>
 <sheets>
 <sheet>
@@ -3161,33 +3162,33 @@ Number of pins: &lt;b&gt;2&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <instance part="GND18" gate="G$1" x="149.86" y="101.6" smashed="yes"/>
 <instance part="GND19" gate="G$1" x="172.72" y="101.6" smashed="yes"/>
 <instance part="GND26" gate="G$1" x="172.72" y="83.82" smashed="yes"/>
-<instance part="BL_MOTOR" gate="-2" x="99.06" y="93.98" smashed="yes">
-<attribute name="NAME" x="101.6" y="93.218" size="1.524" layer="95"/>
+<instance part="BL_MOTOR" gate="-2" x="88.9" y="99.06" smashed="yes">
+<attribute name="NAME" x="91.44" y="98.298" size="1.524" layer="95"/>
 </instance>
-<instance part="BL_MOTOR" gate="-1" x="99.06" y="96.52" smashed="yes">
-<attribute name="NAME" x="101.6" y="95.758" size="1.524" layer="95"/>
-<attribute name="VALUE" x="98.298" y="97.917" size="1.778" layer="96"/>
+<instance part="BL_MOTOR" gate="-1" x="88.9" y="101.6" smashed="yes">
+<attribute name="NAME" x="91.44" y="100.838" size="1.524" layer="95"/>
+<attribute name="VALUE" x="88.138" y="102.997" size="1.778" layer="96"/>
 </instance>
-<instance part="FL_MOTOR" gate="-2" x="99.06" y="81.28" smashed="yes">
-<attribute name="NAME" x="101.6" y="80.518" size="1.524" layer="95"/>
+<instance part="FL_MOTOR" gate="-2" x="88.9" y="78.74" smashed="yes">
+<attribute name="NAME" x="91.44" y="77.978" size="1.524" layer="95"/>
 </instance>
-<instance part="FL_MOTOR" gate="-1" x="99.06" y="83.82" smashed="yes">
-<attribute name="NAME" x="101.6" y="83.058" size="1.524" layer="95"/>
-<attribute name="VALUE" x="98.298" y="85.217" size="1.778" layer="96"/>
+<instance part="FL_MOTOR" gate="-1" x="88.9" y="81.28" smashed="yes">
+<attribute name="NAME" x="91.44" y="80.518" size="1.524" layer="95"/>
+<attribute name="VALUE" x="88.138" y="82.677" size="1.778" layer="96"/>
 </instance>
-<instance part="BR_MOTOR" gate="-2" x="99.06" y="71.12" smashed="yes">
-<attribute name="NAME" x="101.6" y="70.358" size="1.524" layer="95"/>
+<instance part="BR_MOTOR" gate="-2" x="88.9" y="58.42" smashed="yes">
+<attribute name="NAME" x="91.44" y="57.658" size="1.524" layer="95"/>
 </instance>
-<instance part="BR_MOTOR" gate="-1" x="99.06" y="73.66" smashed="yes">
-<attribute name="NAME" x="101.6" y="72.898" size="1.524" layer="95"/>
-<attribute name="VALUE" x="98.298" y="75.057" size="1.778" layer="96"/>
+<instance part="BR_MOTOR" gate="-1" x="88.9" y="60.96" smashed="yes">
+<attribute name="NAME" x="91.44" y="60.198" size="1.524" layer="95"/>
+<attribute name="VALUE" x="88.138" y="62.357" size="1.778" layer="96"/>
 </instance>
-<instance part="FR_MOTOR" gate="-2" x="99.06" y="60.96" smashed="yes">
-<attribute name="NAME" x="101.6" y="60.198" size="1.524" layer="95"/>
+<instance part="FR_MOTOR" gate="-2" x="88.9" y="38.1" smashed="yes">
+<attribute name="NAME" x="91.44" y="37.338" size="1.524" layer="95"/>
 </instance>
-<instance part="FR_MOTOR" gate="-1" x="99.06" y="63.5" smashed="yes">
-<attribute name="NAME" x="101.6" y="62.738" size="1.524" layer="95"/>
-<attribute name="VALUE" x="98.298" y="64.897" size="1.778" layer="96"/>
+<instance part="FR_MOTOR" gate="-1" x="88.9" y="40.64" smashed="yes">
+<attribute name="NAME" x="91.44" y="39.878" size="1.524" layer="95"/>
+<attribute name="VALUE" x="88.138" y="42.037" size="1.778" layer="96"/>
 </instance>
 <instance part="BATTERY" gate="-2" x="149.86" y="20.32" smashed="yes">
 <attribute name="NAME" x="152.4" y="19.558" size="1.524" layer="95"/>
@@ -3196,6 +3197,7 @@ Number of pins: &lt;b&gt;2&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <attribute name="NAME" x="152.4" y="22.098" size="1.524" layer="95"/>
 <attribute name="VALUE" x="149.098" y="24.257" size="1.778" layer="96"/>
 </instance>
+<instance part="GND1" gate="G$1" x="147.32" y="20.32" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -3229,6 +3231,11 @@ Number of pins: &lt;b&gt;2&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <label x="157.48" y="60.96" size="1.778" layer="95"/>
 <pinref part="C8" gate="G$1" pin="2"/>
 <wire x1="157.48" y1="60.96" x2="167.64" y2="60.96" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="BATTERY" gate="-1" pin="S"/>
+<junction x="147.32" y="22.86"/>
+<label x="142.24" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -3361,6 +3368,10 @@ Number of pins: &lt;b&gt;2&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <segment>
 <pinref part="BL_REF" gate="J$1" pin="1"/>
 <pinref part="GND26" gate="G$1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="BATTERY" gate="-2" pin="S"/>
+<pinref part="GND1" gate="G$1" pin="GND"/>
 </segment>
 </net>
 <net name="SDA" class="0">
@@ -3809,6 +3820,62 @@ Number of pins: &lt;b&gt;2&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <junction x="30.48" y="63.5"/>
 <label x="30.48" y="63.5" size="1.778" layer="95"/>
 <wire x1="38.1" y1="63.5" x2="30.48" y2="63.5" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="SV1" gate="G$1" pin="3"/>
+<wire x1="78.74" y1="99.06" x2="86.36" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="BL_MOTOR" gate="-2" pin="S"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="SV1" gate="G$1" pin="4"/>
+<wire x1="78.74" y1="101.6" x2="86.36" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="BL_MOTOR" gate="-1" pin="S"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="SV4" gate="G$1" pin="4"/>
+<pinref part="BR_MOTOR" gate="-1" pin="S"/>
+<wire x1="78.74" y1="60.96" x2="86.36" y2="60.96" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="BR_MOTOR" gate="-2" pin="S"/>
+<pinref part="SV4" gate="G$1" pin="3"/>
+<wire x1="86.36" y1="58.42" x2="78.74" y2="58.42" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="SV2" gate="G$1" pin="4"/>
+<pinref part="FL_MOTOR" gate="-1" pin="S"/>
+<wire x1="78.74" y1="81.28" x2="86.36" y2="81.28" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="FL_MOTOR" gate="-2" pin="S"/>
+<pinref part="SV2" gate="G$1" pin="3"/>
+<wire x1="86.36" y1="78.74" x2="78.74" y2="78.74" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="SV6" gate="G$1" pin="4"/>
+<pinref part="FR_MOTOR" gate="-1" pin="S"/>
+<wire x1="78.74" y1="40.64" x2="86.36" y2="40.64" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="SV6" gate="G$1" pin="3"/>
+<pinref part="FR_MOTOR" gate="-2" pin="S"/>
+<wire x1="78.74" y1="38.1" x2="86.36" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
