@@ -3737,7 +3737,7 @@ Number of pins: &lt;b&gt;2&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <segment>
 <pinref part="B1" gate="G$1" pin="9*/RX2"/>
 <junction x="30.48" y="63.5"/>
-<label x="30.48" y="43.18" size="1.778" layer="95"/>
+<label x="30.48" y="63.5" size="1.778" layer="95"/>
 <wire x1="30.48" y1="63.5" x2="43.18" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -3810,7 +3810,7 @@ Number of pins: &lt;b&gt;2&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <segment>
 <pinref part="B1" gate="G$1" pin="10*/TX2/CS"/>
 <junction x="30.48" y="43.18"/>
-<label x="30.48" y="63.5" size="1.778" layer="95"/>
+<label x="30.48" y="43.18" size="1.778" layer="95"/>
 <wire x1="30.48" y1="43.18" x2="45.72" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
