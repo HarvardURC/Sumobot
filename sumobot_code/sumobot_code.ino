@@ -9,6 +9,11 @@
 #define NUM_SENSORS 3
 #define NUM_SAMPLES_PER_SENSOR 4
 
+// TODO: Tune the below
+// TODO: We also may want different speeds for different actions
+// (forward, turn, reverse, attack, etc.). See what's reasonable when it runs
+#define DRIVE_SPEED 255
+
 #define BACKUP_TIME_IN_MS 300
 #define TURN_TIME_IN_MS 250
 
@@ -68,7 +73,7 @@ void loop() {
             break;
         // Move forward state
         case 2:
-            driver->drive(255);
+            driver->drive(DRIVE_SPEED);
             if (line_sensor_readings[0] || line_sensor_readings[1]) {
                 cur_state = 5;
             } else if (tofs->objectVisible(Left) || tofs->objectVisible(LeftDiag)) {
@@ -81,7 +86,7 @@ void loop() {
             break;
         // Turn left
         case 3:
-            driver->drive(-255, 255);
+            driver->drive(-DRIVE_SPEED, DRIVE_SPEED);
             if (tofs->objectVisible(Front)) {
                 cur_state = 2;
             } else if (tofs->objectVisible(Right) || tofs->objectVisible(RightDiag)) {
@@ -92,7 +97,7 @@ void loop() {
             break;
         // Turn right
         case 4:
-            driver->drive(255, -255);
+            driver->drive(DRIVE_SPEED, -DRIVE_SPEED);
             if (tofs->objectVisible(Front)) {
                 cur_state = 2;
             } else if (tofs->objectVisible(Left) || tofs->objectVisible(LeftDiag)) {
@@ -103,11 +108,11 @@ void loop() {
             break;
         // 5: backup and turn
         case 5:
-            driver->drive(-255, -255);
+            driver->drive(-DRIVE_SPEED, -DRIVE_SPEED);
             uint64_t cur_time = millis();
             while (millis() < cur_time + BACKUP_TIME_IN_MS) {
             }
-            driver->drive(-255, 255);
+            driver->drive(-DRIVE_SPEED, DRIVE_SPEED);
             cur_time = millis();
             while (millis() < cur_time + TURN_TIME_IN_MS) {
             }
