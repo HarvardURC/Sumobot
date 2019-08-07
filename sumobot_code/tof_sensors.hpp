@@ -5,9 +5,7 @@
 
 #pragma once
 
-enum TofSensorIndex {
-    left = 0, leftDiag, front, rightDiag, right
-};
+enum TofSensorIndex { Left = 0, LeftDiag, Front, RightDiag, Right };
 
 /*
  * This is the interface TofArray classes must implement. We have 2 classes that
@@ -20,11 +18,8 @@ class TofArrayInterface {
     // Constructor
     inline TofArrayInterface() {};
 
-    // Gets readings from all ToF sensors; outputs to the Serial Monitor
-    virtual void readAllToSerial();
-
-    // Gets readings from all ToF sensors; returns readings in a vector
-    virtual std::vector<int16_t> readAll();
+    // Gets readings from all ToF sensors+updates instance variable
+    virtual void readAll();
 
     // Reads a single ToF sensor
     virtual int16_t readTof(TofSensorIndex sensor_index);
@@ -33,9 +28,12 @@ class TofArrayInterface {
 class TofArray : public TofArrayInterface {
   public:
     TofArray();
-    void readAllToSerial() override;
-    std::vector<int16_t> readAll() override;
+    void readAll() override;
     int16_t readTof(TofSensorIndex sensor_index) override;
+    void readAllToSerial();
+    bool objectVisible(TofSensorIndex sensor_index);
+
+    std::vector<int16_t> sensor_readings_;
 
   private:
     void initSensor_(uint8_t index);

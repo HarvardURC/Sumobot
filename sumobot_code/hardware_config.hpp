@@ -20,4 +20,12 @@ namespace pins {
     const uint8_t tof_front = 5;
     const uint8_t tof_rightdiag = 6;
     const uint8_t tof_right = 7;
+
+    const uint8_t reflectance_fl = 14;
+    const uint8_t reflectance_bl = 15;
+    const uint8_t reflectance_fr = 20;
+    const uint8_t reflectance_br = 21;
+
+    // TODO: change
+    const uint8_t switch_pin = 4;
 }   // namespace pins
