@@ -2,6 +2,8 @@
 #include "hardware_config.hpp"
 #include <Arduino.h>
 
+// TODO: need to tune
+#define TOF_THRESHOLD 250
 TofArray::TofArray() {
     sensor_pins_ = {pins::tof_left,
                     pins::tof_leftdiag,
@@ -11,6 +13,7 @@ TofArray::TofArray() {
 
     sensors_ = {new VL53L0X, new VL53L0X, new VL53L0X, new VL53L0X, new VL53L0X};
     sensor_names_ = {"left", "left diag", "front", "right diag, right"};
+    sensor_readings_ = {32767, 32767, 32767, 32767, 32767};
 
     for (uint8_t i = 0; i < sensor_pins_.size(); i++) {
         pinMode(sensor_pins_[i], OUTPUT);
@@ -50,13 +53,13 @@ void TofArray::readAllToSerial() {
     }
 }
 
-std::vector<int16_t> TofArray::readAll() {
-    std::vector<int16_t> sensor_readings{};
+void TofArray::readAll() {
     for (uint8_t i = 0; i < sensors_.size(); i++) {
-        int16_t reading = sensors_[i]->readRangeSingleMillimeters();
-        sensor_readings.push_back(reading);
+        sensor_readings_[i] = sensors_[i]->readRangeSingleMillimeters();
     }
-    return sensor_readings;
+}
+bool TofArray::objectVisible(TofSensorIndex sensor_index) {
+    return sensor_readings_[sensor_index] <= TOF_THRESHOLD ? true : false;
 }
 
 int16_t TofArray::readTof(TofSensorIndex sensor_index) {
