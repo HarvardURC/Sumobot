@@ -3247,6 +3247,8 @@ Number of pins: &lt;b&gt;2&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <pinref part="SWITCH" gate="J$1" pin="2"/>
 <junction x="139.7" y="40.64"/>
 <label x="139.7" y="40.64" size="1.778" layer="95"/>
+<pinref part="SWITCH" gate="J$1" pin="3"/>
+<wire x1="139.7" y1="43.18" x2="139.7" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -3489,33 +3491,6 @@ Number of pins: &lt;b&gt;2&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <pinref part="R_TOF" gate="G$1" pin="1"/>
 <junction x="121.92" y="5.08"/>
 <label x="121.92" y="5.08" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="VDD" class="0">
-<segment>
-<pinref part="L_TOF" gate="G$1" pin="7"/>
-<junction x="2.54" y="20.32"/>
-<label x="2.54" y="20.32" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="FL_TOF" gate="G$1" pin="7"/>
-<junction x="30.48" y="20.32"/>
-<label x="30.48" y="20.32" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="F_TOF" gate="G$1" pin="7"/>
-<junction x="58.42" y="20.32"/>
-<label x="58.42" y="20.32" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="FR_TOF" gate="G$1" pin="7"/>
-<junction x="93.98" y="20.32"/>
-<label x="93.98" y="20.32" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="R_TOF" gate="G$1" pin="7"/>
-<junction x="121.92" y="20.32"/>
-<label x="121.92" y="20.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VREG" class="0">

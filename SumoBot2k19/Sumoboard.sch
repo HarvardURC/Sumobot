@@ -3493,33 +3493,6 @@ Number of pins: &lt;b&gt;2&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <label x="121.92" y="5.08" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="VDD" class="0">
-<segment>
-<pinref part="L_TOF" gate="G$1" pin="7"/>
-<junction x="2.54" y="20.32"/>
-<label x="2.54" y="20.32" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="FL_TOF" gate="G$1" pin="7"/>
-<junction x="30.48" y="20.32"/>
-<label x="30.48" y="20.32" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="F_TOF" gate="G$1" pin="7"/>
-<junction x="58.42" y="20.32"/>
-<label x="58.42" y="20.32" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="FR_TOF" gate="G$1" pin="7"/>
-<junction x="93.98" y="20.32"/>
-<label x="93.98" y="20.32" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="R_TOF" gate="G$1" pin="7"/>
-<junction x="121.92" y="20.32"/>
-<label x="121.92" y="20.32" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="VREG" class="0">
 <segment>
 <pinref part="B1" gate="G$1" pin="VIN"/>
@@ -3699,15 +3672,15 @@ Number of pins: &lt;b&gt;2&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 </net>
 <net name="FR_REF" class="0">
 <segment>
-<pinref part="B1" gate="G$1" pin="A6/20*"/>
-<junction x="-2.54" y="86.36"/>
-<label x="-12.7" y="86.36" size="1.778" layer="95"/>
-<wire x1="-12.7" y1="86.36" x2="-2.54" y2="86.36" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="FR_REF" gate="J$1" pin="3"/>
 <junction x="149.86" y="106.68"/>
 <label x="149.86" y="106.68" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="B1" gate="G$1" pin="A1/15"/>
+<junction x="-2.54" y="99.06"/>
+<label x="-12.7" y="99.06" size="1.778" layer="95"/>
+<wire x1="-2.54" y1="99.06" x2="-15.24" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BR_REF" class="0">
