@@ -4,6 +4,18 @@
 
 // TODO: need to tune
 #define TOF_THRESHOLD 250
+
+// This hack is to allow the vector library to be used with Teensy
+namespace std {
+    void __throw_bad_alloc() {
+        Serial.println("Unable to allocate memory");
+    }
+    void __throw_length_error(char const* e) {
+        Serial.print("Length Error :");
+        Serial.println(e);
+    }
+}   // namespace std
+
 TofArray::TofArray() {
     sensor_pins_ = {pins::tof_left,
                     pins::tof_leftdiag,
