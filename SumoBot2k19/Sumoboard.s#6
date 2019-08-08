@@ -3247,6 +3247,8 @@ Number of pins: &lt;b&gt;2&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <pinref part="SWITCH" gate="J$1" pin="2"/>
 <junction x="139.7" y="40.64"/>
 <label x="139.7" y="40.64" size="1.778" layer="95"/>
+<pinref part="SWITCH" gate="J$1" pin="3"/>
+<wire x1="139.7" y1="43.18" x2="139.7" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">

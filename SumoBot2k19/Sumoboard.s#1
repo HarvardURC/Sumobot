@@ -3466,33 +3466,6 @@ Number of pins: &lt;b&gt;2&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <wire x1="40.64" y1="86.36" x2="30.48" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="GPIO" class="0">
-<segment>
-<pinref part="L_TOF" gate="G$1" pin="1"/>
-<junction x="2.54" y="5.08"/>
-<label x="2.54" y="5.08" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="FL_TOF" gate="G$1" pin="1"/>
-<junction x="30.48" y="5.08"/>
-<label x="30.48" y="5.08" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="F_TOF" gate="G$1" pin="1"/>
-<junction x="58.42" y="5.08"/>
-<label x="58.42" y="5.08" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="FR_TOF" gate="G$1" pin="1"/>
-<junction x="93.98" y="5.08"/>
-<label x="93.98" y="5.08" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="R_TOF" gate="G$1" pin="1"/>
-<junction x="121.92" y="5.08"/>
-<label x="121.92" y="5.08" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="VREG" class="0">
 <segment>
 <pinref part="B1" gate="G$1" pin="VIN"/>

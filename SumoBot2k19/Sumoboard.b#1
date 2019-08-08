@@ -1407,18 +1407,6 @@ design rules under a new name.</description>
 <wire x1="26.035" y1="34.13000625" x2="24.6888" y2="32.78380625" width="0.1524" layer="1"/>
 <wire x1="24.6888" y1="32.78380625" x2="24.6888" y2="32.766" width="0.1524" layer="1"/>
 </signal>
-<signal name="GPIO">
-<contactref element="L_TOF" pad="1"/>
-<contactref element="FL_TOF" pad="1"/>
-<contactref element="F_TOF" pad="1"/>
-<contactref element="FR_TOF" pad="1"/>
-<contactref element="R_TOF" pad="1"/>
-<wire x1="2.72195625" y1="32.102746875" x2="2.9098625" y2="32.290653125" width="0.3302" layer="1"/>
-<wire x1="67.48195625" y1="43.7772625" x2="53.799934375" y2="57.41635625" width="0" layer="19" extent="1-1"/>
-<wire x1="32.37991875" y1="55.72000625" x2="53.799934375" y2="57.41635625" width="0" layer="19" extent="1-1"/>
-<wire x1="12.143934375" y1="50.975653125" x2="32.37991875" y2="55.72000625" width="0" layer="19" extent="1-1"/>
-<wire x1="2.9098625" y1="32.290653125" x2="12.143934375" y2="50.975653125" width="0" layer="19" extent="1-1"/>
-</signal>
 <signal name="VREG">
 <contactref element="B1" pad="VIN"/>
 <contactref element="REGULATOR" pad="3"/>
