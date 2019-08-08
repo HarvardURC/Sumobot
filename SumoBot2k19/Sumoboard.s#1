@@ -3664,10 +3664,10 @@ Number of pins: &lt;b&gt;2&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <label x="172.72" y="88.9" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="B1" gate="G$1" pin="5*"/>
-<junction x="30.48" y="73.66"/>
-<label x="30.48" y="73.66" size="1.778" layer="95"/>
-<wire x1="30.48" y1="73.66" x2="43.18" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="B1" gate="G$1" pin="1/TX1"/>
+<junction x="30.48" y="83.82"/>
+<wire x1="30.48" y1="83.82" x2="43.18" y2="83.82" width="0.1524" layer="91"/>
+<label x="30.48" y="83.82" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="FR_REF" class="0">
@@ -3743,9 +3743,10 @@ Number of pins: &lt;b&gt;2&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <label x="162.56" y="38.1" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="B1" gate="G$1" pin="1/TX1"/>
-<junction x="30.48" y="83.82"/>
-<wire x1="30.48" y1="83.82" x2="43.18" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="B1" gate="G$1" pin="5*"/>
+<junction x="30.48" y="73.66"/>
+<wire x1="30.48" y1="73.66" x2="43.18" y2="73.66" width="0.1524" layer="91"/>
+<label x="30.48" y="73.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LEFT_PWM" class="0">
