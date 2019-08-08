@@ -23,12 +23,9 @@ QTRSensors qtr;
 
 uint16_t line_sensor_readings[NUM_SENSORS];
 
-uint8_t cur_state;   // FSM state variable
-                     // 1: start (init state)
-                     // 2: straight
-                     // 3: turn_left
-                     // 4: turn_right
-                     // 5: backup and turn
+enum FsmState { Start = 0, Straight, TurnLeft, TurnRight, BackupAndTurn };
+FsmState cur_state;
+
 void qtr_setup() {
     qtr.setTypeAnalog();
     qtr.setSensorPins((const uint8_t[]) {pins::reflectance_fl,
@@ -43,7 +40,7 @@ void setup() {
     tofs = new TofArray();
     pinMode(pins::switch_pin, INPUT);
 
-    cur_state = 1;
+    cur_state = Start;
 
     if (DEBUG_ENABLED) {
         Serial.begin(9600);
@@ -63,51 +60,51 @@ void loop() {
 
     switch (cur_state) {
         // Start state
-        case 1:
+        case Start:
             // TODO: check if switch will be low or high
             if (digitalRead(pins::switch_pin) == HIGH) {
-                cur_state = 2;
+                cur_state = Straight;
             } else {
-                cur_state = 1;
+                cur_state = Start;
             }
             break;
         // Move forward state
-        case 2:
+        case Straight:
             driver->drive(DRIVE_SPEED);
             if (line_sensor_readings[0] || line_sensor_readings[1]) {
-                cur_state = 5;
+                cur_state = BackupAndTurn;
             } else if (tofs->objectVisible(Left) || tofs->objectVisible(LeftDiag)) {
-                cur_state = 3;
+                cur_state = TurnLeft;
             } else if (tofs->objectVisible(Right) || tofs->objectVisible(RightDiag)) {
-                cur_state = 4;
+                cur_state = TurnRight;
             } else {
-                cur_state = 2;
+                cur_state = Straight;
             }
             break;
         // Turn left
-        case 3:
+        case TurnLeft:
             driver->drive(-DRIVE_SPEED, DRIVE_SPEED);
             if (tofs->objectVisible(Front)) {
-                cur_state = 2;
+                cur_state = Straight;
             } else if (tofs->objectVisible(Right) || tofs->objectVisible(RightDiag)) {
-                cur_state = 4;
+                cur_state = TurnRight;
             } else {
-                cur_state = 3;
+                cur_state = TurnLeft;
             }
             break;
         // Turn right
-        case 4:
+        case TurnRight:
             driver->drive(DRIVE_SPEED, -DRIVE_SPEED);
             if (tofs->objectVisible(Front)) {
-                cur_state = 2;
+                cur_state = Straight;
             } else if (tofs->objectVisible(Left) || tofs->objectVisible(LeftDiag)) {
-                cur_state = 3;
+                cur_state = TurnLeft;
             } else {
-                cur_state = 4;
+                cur_state = TurnRight;
             }
             break;
-        // 5: backup and turn
-        case 5:
+        // Backup and turn
+        case BackupAndTurn:
             driver->drive(-DRIVE_SPEED, -DRIVE_SPEED);
             uint64_t cur_time = millis();
             while (millis() < cur_time + BACKUP_TIME_IN_MS) {
@@ -116,7 +113,7 @@ void loop() {
             cur_time = millis();
             while (millis() < cur_time + TURN_TIME_IN_MS) {
             }
-            cur_state = 2;
+            cur_state = Straight;
             break;
     }
 }
