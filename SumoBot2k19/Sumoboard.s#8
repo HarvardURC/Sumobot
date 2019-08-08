@@ -3684,15 +3684,15 @@ Number of pins: &lt;b&gt;2&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 </net>
 <net name="BL_REF" class="0">
 <segment>
-<pinref part="B1" gate="G$1" pin="A1/15"/>
-<junction x="-2.54" y="99.06"/>
-<label x="-12.7" y="99.06" size="1.778" layer="95"/>
-<wire x1="-12.7" y1="99.06" x2="-2.54" y2="99.06" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="BL_REF" gate="J$1" pin="3"/>
 <junction x="172.72" y="88.9"/>
 <label x="172.72" y="88.9" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="B1" gate="G$1" pin="5*"/>
+<junction x="30.48" y="73.66"/>
+<label x="30.48" y="73.66" size="1.778" layer="95"/>
+<wire x1="30.48" y1="73.66" x2="43.18" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="FR_REF" class="0">

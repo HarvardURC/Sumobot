@@ -3818,22 +3818,23 @@ Number of pins: &lt;b&gt;2&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <wire x1="78.74" y1="38.1" x2="86.36" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="VBAT" class="0">
+<net name="RIGHT" class="0">
 <segment>
-<pinref part="SWITCH" gate="J$1" pin="1"/>
-<junction x="139.7" y="38.1"/>
-<label x="139.7" y="38.1" size="1.778" layer="95"/>
+<pinref part="B1" gate="G$1" pin="13/SCK"/>
+<wire x1="30.48" y1="50.8" x2="35.56" y2="50.8" width="0.1524" layer="91"/>
 </segment>
+</net>
+<net name="BAT" class="0">
 <segment>
 <pinref part="BATTERY" gate="-1" pin="S"/>
 <junction x="147.32" y="22.86"/>
 <label x="142.24" y="22.86" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="RIGHT" class="0">
 <segment>
-<pinref part="B1" gate="G$1" pin="13/SCK"/>
-<wire x1="30.48" y1="50.8" x2="35.56" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="SWITCH" gate="J$1" pin="1"/>
+<junction x="139.7" y="38.1"/>
+<label x="139.7" y="38.1" size="1.778" layer="95"/>
+<wire x1="139.7" y1="38.1" x2="147.32" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
